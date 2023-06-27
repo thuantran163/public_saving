@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =9
+let g:netrw_dirhist_9='/home/thuantran/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/static-N-shared-lib'
+let g:netrw_dirhist_8='/home/thuantran/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/static-N-shared-lib/inc'
+let g:netrw_dirhist_7='/home/thuantran/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/static-N-shared-lib'
+let g:netrw_dirhist_6='/home/thuantran/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials'
+let g:netrw_dirhist_5='/home/thuantran/Documents/Projects/Embedded/Linux_embedded/programming_module/module_4/src'
+let g:netrw_dirhist_4='/home/thuantran/Documents/Projects/Embedded/Linux_embedded/programming_module/module_3'
+let g:netrw_dirhist_3='/home/thuantran/Documents/Projects/Embedded/Linux_embedded/programming_module/module_3/src'
+let g:netrw_dirhist_2='/home/thuantran/Documents/Projects/Embedded/Linux_embedded/programming_module/module_3'
+let g:netrw_dirhist_1='/home/thuantran/Documents/Projects/Embedded/Linux_embedded/programming_module/module_2/src'
+let g:netrw_dirhist_0='/home/thuantran/Documents/Projects/Embedded/Linux_embedded/old_projects/gpio/src'
