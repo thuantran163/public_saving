@@ -1,0 +1,18 @@
+/* gnome-terminal */
+.titlebar {
+    background: #3089FF;
+    color:white;
+}
+
+.titlebar:backdrop  {
+    background: #777777;
+    color:white;
+}
+
+terminal-window vte-terminal{
+  background: #1b2329;
+}
+
+terminal-window:backdrop vte-terminal:backdrop{
+  background: #000000;
+}
