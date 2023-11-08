@@ -11,119 +11,187 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/Infotainment
+~MSle0~/scl
 
 # Last Substitute Search Pattern:
-~MSle0&IntergratingCppApp
+~MSle0&\ 
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
-:x
-|2,0,1687873800,,"x"
-:X
-|2,0,1687873796,,"X"
-:q1
-|2,0,1685794999,,"q1"
 :q!
-|2,0,1685794954,,"q!"
+|2,0,1699455403,,"q!"
 :Q!
-|2,0,1685258573,,"Q!"
+|2,0,1699455120,,"Q!"
+:x
+|2,0,1697256511,,"x"
+:X
+|2,0,1695613846,,"X"
+:q1
+|2,0,1693129443,,"q1"
+:48
+|2,0,1692197168,,"48"
+:21
+|2,0,1691233736,,"21"
+:colorscheme molokai
+|2,0,1691232839,,"colorscheme molokai"
+:vs helo
+|2,0,1691233354,,"vs helo"
+:q
+|2,0,1691232973,,"q"
+:29
+|2,0,1691232819,,"29"
+:hi Normal ctermfg=None
+|2,0,1691232465,,"hi Normal ctermfg=None"
+:hi Normal ctermbg=None
+|2,0,1691232448,,"hi Normal ctermbg=None"
+:hi Normal ctermbg=-1
+|2,0,1691232432,,"hi Normal ctermbg=-1"
+:hi Normal ctermbg=default
+|2,0,1691232406,,"hi Normal ctermbg=default"
+:w
+|2,0,1691232366,,"w"
+:%s#guibg=
+|2,0,1691232014,,"%s#guibg="
+:hi Normal ctermbg=255
+|2,0,1691232334,,"hi Normal ctermbg=255"
+:hi Normal ctermbg 255
+|2,0,1691232330,,"hi Normal ctermbg 255"
+:echo Normal
+|2,0,1691232320,,"echo Normal"
+:hi echo Normal
+|2,0,1691232312,,"hi echo Normal"
+:hi Normal guifg=#000000 guibg=#000000
+|2,0,1691232296,,"hi Normal guifg=#000000 guibg=#000000"
+:hi Normal guifg=#FFFFFF guibg=#FFFFFF
+|2,0,1691232281,,"hi Normal guifg=#FFFFFF guibg=#FFFFFF"
+:hi Normal guifg=255 guibg=255
+|2,0,1691232214,,"hi Normal guifg=255 guibg=255"
+:hi Normal guifg=none guibg=none
+|2,0,1691232190,,"hi Normal guifg=none guibg=none"
+:hi Normal guifg=default guibg=default
+|2,0,1691232174,,"hi Normal guifg=default guibg=default"
+:gi Normal guifg=default guibg=default
+|2,0,1691232165,,"gi Normal guifg=default guibg=default"
+:colorscheme molokayo
+|2,0,1691232035,,"colorscheme molokayo"
+:colorscheme
+|2,0,1691231377,,"colorscheme"
+:let g:diminactive_enable_focus =1
+|2,0,1691231213,,"let g:diminactive_enable_focus =1"
+:let g:diminactive_enable_focus
+|2,0,1691231207,,"let g:diminactive_enable_focus"
+:hi ColorColumn 
+|2,0,1691231169,,"hi ColorColumn "
+:help index
+|2,0,1691222793,,"help index"
+:.,.+1!
+|2,0,1691222725,,".,.+1!"
+:j
+|2,0,1688482066,,"j"
+:Q
+|2,0,1688411436,,"Q"
+:set nonumber
+|2,0,1688405883,,"set nonumber"
+:ls
+|2,0,1688402036,,"ls"
+:tabp
+|2,0,1688402030,,"tabp"
+:tabn
+|2,0,1688402023,,"tabn"
+:tn
+|2,0,1688402021,,"tn"
+:8
+|2,0,1688296008,,"8"
+:%s#\#\#g
+|2,0,1688295705,,"%s#\\#\\#g"
+:%s#\ #\#g
+|2,0,1688295682,,"%s#\\ #\\#g"
+:8]
+|2,0,1688295613,,"8]"
+:23
+|2,0,1688292980,,"23"
 :k
 |2,0,1684988146,,"k"
 :z
 |2,0,1684986350,,"z"
-:q
-|2,0,1684985968,,"q"
 :'<,'>//
 |2,0,1684918269,,"'<,'>//"
 :18
 |2,0,1684915620,,"18"
-:'<,'>q!
-|2,0,1684906038,,"'<,'>q!"
-:%s#IntergratingCppApp#ThermostatApp#g
-|2,0,1684422360,,"%s#IntergratingCppApp#ThermostatApp#g"
-:%s/\<IntergratingCppApp\>#hello#g
-|2,0,1684422327,,"%s/\\<IntergratingCppApp\\>#hello#g"
-:q:q
-|2,0,1684414474,,"q:q"
-:%s#appInfotainmentApp#appIntergratingCppApp#g
-|2,0,1684412089,,"%s#appInfotainmentApp#appIntergratingCppApp#g"
-:s#appInfotainmentApp#appIntergratingCppApp#g
-|2,0,1684412016,,"s#appInfotainmentApp#appIntergratingCppApp#g"
-:s#\<PROPER\>#HELLO#g
-|2,0,1684411980,,"s#\\<PROPER\\>#HELLO#g"
-:s#\<PROPER\>#HELLO#G
-|2,0,1684411973,,"s#\\<PROPER\\>#HELLO#G"
-:/\<Quick\>
-|2,0,1684411922,,"/\\<Quick\\>"
-:s#<\InfotainmentApp\>#hello#g
-|2,0,1684411878,,"s#<\\InfotainmentApp\\>#hello#g"
-:s/\<appInfotainmentApp\>/appIn#g
-|2,0,1684411763,,"s/\\<appInfotainmentApp\\>/appIn#g"
-:s#/\<appInfotainmentApp\>#appIntergratingApp#g
-|2,0,1684411635,,"s#/\\<appInfotainmentApp\\>#appIntergratingApp#g"
-:s#appInfortainmentApp#appIntergratingCppApp#g
-|2,0,1684411501,,"s#appInfortainmentApp#appIntergratingCppApp#g"
-:s#InfotainmentApp##IntergratingCppApp#g
-|2,0,1684411416,,"s#InfotainmentApp##IntergratingCppApp#g"
-:asfjlasjfklajskfjlqwer
-|2,0,1684411382,,"asfjlasjfklajskfjlqwer"
-:jlasfkasjf
-|2,0,1684411377,,"jlasfkasjf"
-:'<,'>s#SubPage#StationPage#g
-|2,0,1684390503,,"'<,'>s#SubPage#StationPage#g"
-:10
-|2,0,1684390254,,"10"
-:'<,'>s#One#Two#g
-|2,0,1684389700,,"'<,'>s#One#Two#g"
-:set nonumber
-|2,0,1684064069,,"set nonumber"
-:w
-|2,0,1684064057,,"w"
-:Q1
-|2,0,1683714185,,"Q1"
-:pwd
-|2,0,1683475664,,"pwd"
-:7
-|2,0,1683470592,,"7"
-: 
-|2,0,1683445149,," "
-:'<,'>
-|2,0,1683393970,,"'<,'>"
-:new ~/.vimrc
-|2,0,1683393901,,"new ~/.vimrc"
-:new tab
-|2,0,1683393864,,"new tab"
-:set mouse=a
-|2,0,1683393815,,"set mouse=a"
-:vi ~/.vimrc
-|2,0,1683393676,,"vi ~/.vimrc"
-:Q
-|2,0,1683278905,,"Q"
-:zx
-|2,0,1671117461,,"zx"
-:1180
-|2,0,1671115953,,"1180"
-:xc
-|2,0,1670000070,,"xc"
-:xz
-|2,0,1669888975,,"xz"
-:'<,'>s#self.##g
-|2,0,1669887276,,"'<,'>s#self.##g"
-:tabnew ~/.vim/colors/molokayo.vim
-|2,0,1669762695,,"tabnew ~/.vim/colors/molokayo.vim"
-:tabnew ~/.vim/colors/molokai.vim
-|2,0,1669762632,,"tabnew ~/.vim/colors/molokai.vim"
-:hi Visual
-|2,0,1669763544,,"hi Visual"
-:xx
-|2,0,1669762601,,"xx"
 
 # Search String History (newest to oldest):
+?/scl
+|2,1,1693129448,47,"scl"
+? "}
+|2,1,1691813596,,"\"}"
+?/Normal
+|2,1,1691232794,47,"Normal"
+?/molo
+|2,1,1691232667,47,"molo"
+?/mono
+|2,1,1691232665,47,"mono"
+?/bg
+|2,1,1691231701,47,"bg"
+?/282828
+|2,1,1691231700,47,"282828"
+?/b
+|2,1,1691231433,47,"b"
 ? @$
-|2,1,1685794966,,"@$"
+|2,1,1691230976,,"@$"
+?/cursor
+|2,1,1691230362,47,"cursor"
+?/mo
+|2,1,1691230253,47,"mo"
+?/stty
+|2,1,1691228469,47,"stty"
+?/S-L
+|2,1,1691222857,47,"S-L"
+?/S-
+|2,1,1691222806,47,"S-"
+?/S-H
+|2,1,1691222797,47,"S-H"
+?/SHIFT
+|2,1,1691222764,47,"SHIFT"
+?/delete
+|2,1,1691220519,47,"delete"
+?/x
+|2,1,1691220481,47,"x"
+?/c-q
+|2,1,1691218101,47,"c-q"
+?/CTRL-J
+|2,1,1691216148,47,"CTRL-J"
+?/pbcop
+|2,1,1691001378,47,"pbcop"
+??\a
+|2,1,1688746295,63,"\\a"
+?/screen
+|2,1,1688404878,47,"screen"
+?/panel
+|2,1,1688404513,47,"panel"
+?/panelActivate
+|2,1,1688404465,47,"panelActivate"
+? \<rgba\>
+|2,1,1688404447,,"\\<rgba\\>"
+?/shell
+|2,1,1688402369,47,"shell"
+?/terminal
+|2,1,1688402273,47,"terminal"
+?/focus
+|2,1,1688402245,47,"focus"
+?/radius
+|2,1,1688401810,47,"radius"
+?/bar
+|2,1,1688401758,47,"bar"
+?/head
+|2,1,1688401749,47,"head"
+?/title
+|2,1,1688401730,47,"title"
+? \ 
+|2,1,1688295682,,"\\ "
+?/  fasdf
+|2,1,1688295522,47,"  fasdf"
 ?/*jjk
 |2,1,1684987625,47,"*jjk"
 ?/Infotainment
@@ -154,74 +222,6 @@ $
 |2,1,1684411635,,"/\\<appInfotainmentApp\\>"
 ? appInfortainmentApp
 |2,1,1684411501,,"appInfortainmentApp"
-?/Infota
-|2,1,1684411455,47,"Infota"
-?/ajhfa;s
-|2,1,1684411386,47,"ajhfa;s"
-? \<make_minimum_required\>
-|2,1,1684411372,,"\\<make_minimum_required\\>"
-? SubPage
-|2,1,1684390503,,"SubPage"
-? \<file\>
-|2,1,1684390487,,"\\<file\\>"
-? One
-|2,1,1684389700,,"One"
-?/ARCHIVE
-|2,1,1683441411,47,"ARCHIVE"
-?/install
-|2,1,1683440481,47,"install"
-?/ashdfa
-|2,1,1683393627,47,"ashdfa"
-?/home/thuantran/Documents/Projects/Embedded/NordicSemicon
-|2,1,1683393620,47,"home/thuantran/Documents/Projects/Embedded/NordicSemicon"
-?/Projects/Embedded/NordicSemicon
-|2,1,1683393527,47,"Projects/Embedded/NordicSemicon"
-??\a
-|2,1,1683279763,63,"\\a"
-?/snap
-|2,1,1683279718,47,"snap"
-?/label=
-|2,1,1671115836,47,"label="
-?/label
-|2,1,1671115622,47,"label"
-?/  print
-|2,1,1670032543,47,"  print"
-?/print
-|2,1,1670032518,47,"print"
-?/set_data
-|2,1,1669910033,47,"set_data"
-?/while(
-|2,1,1669889565,47,"while("
-?/whie
-|2,1,1669889562,47,"whie"
-?/run
-|2,1,1669889520,47,"run"
-?/print(self.data
-|2,1,1669889159,47,"print(self.data"
-?/dataConnect
-|2,1,1669889138,47,"dataConnect"
-?/dataConect
-|2,1,1669889128,47,"dataConect"
-?/estimate_position
-|2,1,1669887586,47,"estimate_position"
-?/askldfjals
-|2,1,1669887280,47,"askldfjals"
-? self.
-|2,1,1669887276,,"self."
-?/__init__
-|2,1,1669886590,47,"__init__"
-?/plot_peaks
-|2,1,1669875051,47,"plot_peaks"
-?/plotPeak
-|2,1,1669875039,47,"plotPeak"
-?/Pos
-|2,1,1669770416,47,"Pos"
-?/position
-|2,1,1669770367,47,"position"
-?/thread
-|2,1,1669770113,47,"thread"
-?/hi Visual
-|2,1,1669764076,47,"hi Visual"
 
 # Expression History (newest to oldest):
 
@@ -230,438 +230,1079 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-""0	LINE	0
-	/*
-	  int array[100];
-	  int i;
-	
-	  printf("get size of array\n");
-	  scanf("%d", &i);
-	
-	  printf("get array\n");
-	  inputArray(i, &array[100]);
-	  printArray(i, array[100]);
-	*/
-	
-	
-	  mArray hello_array = {
-	    .size =4
-	  };
-	  inputArray(&hello_array);
-	  printf("\n");
-	  
-	  printArray(hello_array);
-	  mArray ret_array;
-	
-	  sumOf1DArray(hello_array, &ret_array);
-	  printf("\nRetturn array\n");
-	  printArray(ret_array);
-|3,1,0,1,25,0,1685794997,"/*","  int array[100];","  int i;","","  printf(\"get size of array\\n\");","  scanf(\"%d\", &i);","","  printf(\"get array\\n\");","  inputArray(i, &array[100]);","  printArray(i, array[100]);","*/","","","  mArray hello_array = {","    .size =4","  };","  inputArray(&hello_array);","  printf(\"\\n\");","  ","  printArray(hello_array);","  mArray ret_array;","","  sumOf1DArray(hello_array, &ret_array);",>36
-|<"  printf(\"\\nRetturn array\\n\");","  printArray(ret_array);"
-"1	LINE	0
-	/*
-	  int array[100];
-	  int i;
-	
-	  printf("get size of array\n");
-	  scanf("%d", &i);
-	
-	  printf("get array\n");
-	  inputArray(i, &array[100]);
-	  printArray(i, array[100]);
-	*/
-	
-	
-	  mArray hello_array = {
-	    .size =4
-	  };
-	  inputArray(&hello_array);
-	  printf("\n");
-	  
-	  printArray(hello_array);
-	  mArray ret_array;
-	
-	  sumOf1DArray(hello_array, &ret_array);
-	  printf("\nRetturn array\n");
-	  printArray(ret_array);
-|3,0,1,1,25,0,1685019272,"/*","  int array[100];","  int i;","","  printf(\"get size of array\\n\");","  scanf(\"%d\", &i);","","  printf(\"get array\\n\");","  inputArray(i, &array[100]);","  printArray(i, array[100]);","*/","","","  mArray hello_array = {","    .size =4","  };","  inputArray(&hello_array);","  printf(\"\\n\");","  ","  printArray(hello_array);","  mArray ret_array;","","  sumOf1DArray(hello_array, &ret_array);",>36
-|<"  printf(\"\\nRetturn array\\n\");","  printArray(ret_array);"
+"0	LINE	0
+	noremap <S-h> B
+	noremap <S-l> W
+|3,0,0,1,2,0,1691233759,"noremap <S-h> B","noremap <S-l> W"
+""1	LINE	0
+	i
+|3,1,1,1,1,0,1697252265,"i"
 "2	LINE	0
-	
-	typedef struct myArray{
-	  int size;
-	  int array[100];
-	}mArray;
-	
-	int inputArray(mArray *arr){
-	        for (int i=0 ; i< arr->size; i++){
-	                scanf("%d", &arr->array[i]);
-	        }
-	}
-	int printArray(mArray arr){
-	  for (int i=0; i<arr.size; i++){
-	    printf("%d", arr.array[i]);
-	  }
-	}
-	
-	/*
-	int inputArray( int numSizeArray, int **array ){
-	  for (int i=0; i< numSizeArray; i++){
-	    scanf("%d", *(array+i)); 
-	  }
-	  return 0;
-	}
-	
-	int printArray( int numSizeArray, int *array ){
-	  printf("Print array: ");
-	  for (int i= 0; i <numSizeArray; i++){
-	    printf("%d", array[i]);
-	  }
-	  printf("\n");
-	}
-	*/
-	
-	int sumOf1DArray(mArray inputArray, mArray *retArray){ 
-	  for (int i=1; i<inputArray.size; i++){
-	      inputArray.array[i] = inputArray.array[i] + inputArray.array[i-1];
-	
-	  }
-	  printf("\nsumOf1DArray:\n");
-	  printArray(inputArray);
-	  printf("\n");
-	  *retArray = inputArray;
-	
-	}
-|3,0,2,1,45,0,1685019269,"","typedef struct myArray{","  int size;","  int array[100];","}mArray;","","int inputArray(mArray *arr){","        for (int i=0 ; i< arr->size; i++){","                scanf(\"%d\", &arr->array[i]);","        }","}","int printArray(mArray arr){","  for (int i=0; i<arr.size; i++){","    printf(\"%d\", arr.array[i]);","  }","}","","/*","int inputArray( int numSizeArray, int **array ){","  for (int i=0; i< numSizeArray; i++){",>33
-|<"    scanf(\"%d\", *(array+i)); ","  }","  return 0;","}","","int printArray( int numSizeArray, int *array ){","  printf(\"Print array: \");","  for (int i= 0; i <numSizeArray; i++){","    printf(\"%d\", array[i]);","  }","  printf(\"\\n\");","}","*/","","int sumOf1DArray(mArray inputArray, mArray *retArray){ ","  for (int i=1; i<inputArray.size; i++){","      inputArray.array[i] = inputArray.array[i] + inputArray.array[i-1];","","  }","  printf(\"\\nsumOf1DArray:\\n\");",>27
-|<"  printArray(inputArray);","  printf(\"\\n\");","  *retArray = inputArray;","","}"
+	set
+|3,0,2,1,1,0,1692197265,"set"
 "3	LINE	0
-	     dd   vector<int> runningSum(vector<int> )
-|3,0,3,1,1,0,1684998073,"     dd   vector<int> runningSum(vector<int> )"
+	set
+|3,0,3,1,1,0,1692197261,"set"
 "4	LINE	0
-	typedef struct myArray{
-	  int size;
-	  int array[100];
-	}mArray;
 	
-	int inputArray(mArray *arr){
-	        for (int i=0 ; i< arr->size; i++){
-	                scanf("%d", &arr->array[i]);
-	        }
-	}
-	int printArray(mArray arr){
-	  for (int i=0; i<arr.size; i++){
-	    printf("%d", arr.array[i]);
-	  }
-	}
-	
-	/*
-	int inputArray( int numSizeArray, int **array ){
-	  for (int i=0; i< numSizeArray; i++){
-	    scanf("%d", *(array+i)); 
-	  }
-	  return 0;
-	}
-	
-	int printArray( int numSizeArray, int *array ){
-	  printf("Print array: ");
-	  for (int i= 0; i <numSizeArray; i++){
-	    printf("%d", array[i]);
-	  }
-	  printf("\n");
-	}
-	*/
-	
-	int sumOf1DArray(mArray inputArray, mArray *retArray){ 
-	  for (int i=1; i<inputArray.size; i++){
-	      inputArray.array[i] = inputArray.array[i] + inputArray.array[i-1];
-	
-	  }
-	  printf("\nsumOf1DArray:\n");
-	  printArray(inputArray);
-	  printf("\n");
-	  *retArray = inputArray;
-	
-	}
-	
-	int main(){
-	/*
-	  int array[100];
-	  int i;
-	
-|3,0,4,1,50,0,1684997942,"typedef struct myArray{","  int size;","  int array[100];","}mArray;","","int inputArray(mArray *arr){","        for (int i=0 ; i< arr->size; i++){","                scanf(\"%d\", &arr->array[i]);","        }","}","int printArray(mArray arr){","  for (int i=0; i<arr.size; i++){","    printf(\"%d\", arr.array[i]);","  }","}","","/*","int inputArray( int numSizeArray, int **array ){","  for (int i=0; i< numSizeArray; i++){",>33
-|<"    scanf(\"%d\", *(array+i)); ","  }","  return 0;","}","","int printArray( int numSizeArray, int *array ){","  printf(\"Print array: \");","  for (int i= 0; i <numSizeArray; i++){","    printf(\"%d\", array[i]);","  }","  printf(\"\\n\");","}","*/","","int sumOf1DArray(mArray inputArray, mArray *retArray){ ","  for (int i=1; i<inputArray.size; i++){","      inputArray.array[i] = inputArray.array[i] + inputArray.array[i-1];","","  }","  printf(\"\\nsumOf1DArray:\\n\");",>27
-|<"  printArray(inputArray);","  printf(\"\\n\");","  *retArray = inputArray;","","}","","int main(){","/*","  int array[100];","  int i;",""
+|3,0,4,1,1,0,1691814429,""
 "5	LINE	0
-	
-|3,0,5,1,1,0,1684997937,""
+	noremap <w> W
+|3,0,5,1,1,0,1691233967,"noremap <w> W"
 "6	LINE	0
-	#include <stdio.h>
-|3,0,6,1,1,0,1684997936,"#include <stdio.h>"
+	noremap <b> B
+|3,0,6,1,1,0,1691233967,"noremap <b> B"
 "7	LINE	0
-	  printArray(ret_array)
-|3,0,7,1,1,0,1684988796,"  printArray(ret_array)"
-"8	BLOCK	1
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-|3,0,8,2,14,1,1684987418,"//","//","//","//","//","//","//","//","//","//","//","//","//","//"
-"9	CHAR	0
-	//int inputArray( int numSizeArray, int **array ){
-	//  for (int i=0; i< numSizeArray; i++){
-	//    scanf("%d", *array[i]); 
-	//  }
-	//  return 0;
-|3,0,9,0,5,0,1684987401,"//int inputArray( int numSizeArray, int **array ){","//  for (int i=0; i< numSizeArray; i++){","//    scanf(\"%d\", *array[i]); ","//  }","//  return 0;"
+	noremap <S-h> b 
+	noremap <S-l> w
+|3,0,7,1,2,0,1691233833,"noremap <S-h> b ","noremap <S-l> w"
+"8	LINE	0
+	execute pathogen#infect()
+|3,0,8,1,1,0,1691233789,"execute pathogen#infect()"
+"9	LINE	0
+	hi! Normal guibg=bg guifg=bg ctermbg=bg ctermfg=bg
+|3,0,9,1,1,0,1691232994,"hi! Normal guibg=bg guifg=bg ctermbg=bg ctermfg=bg"
 "-	CHAR	0
-	``
-|3,0,36,0,1,0,1684988824,"``"
+	 
+|3,0,36,0,1,0,1695537607," "
 
 # File marks:
-'0  146  31  ~/.bashrc
-|4,48,146,31,1687873800,"~/.bashrc"
-'1  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/static-N-shared-lib/main.c
-|4,49,1,0,1685794999,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/static-N-shared-lib/main.c"
-'2  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/static-N-shared-lib
-|4,50,1,0,1685794954,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/static-N-shared-lib"
-'3  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/static-N-shared-lib/inc/hello_minh.h
-|4,51,1,0,1685794937,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/static-N-shared-lib/inc/hello_minh.h"
-'4  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials/Makefile
-|4,52,1,0,1685794907,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials/Makefile"
-'5  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile
-|4,53,1,0,1685794878,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile"
-'6  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/hello.c
-|4,54,1,0,1685794866,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/hello.c"
-'7  1  0  ~/Documents/Projects/Embedded/myTutorial/Makefile/Makefile
-|4,55,1,0,1685794714,"~/Documents/Projects/Embedded/myTutorial/Makefile/Makefile"
-'8  1  0  ~/abc
-|4,56,1,0,1685258575,"~/abc"
-'9  4  2  ~/Documents/Projects/Embedded/Linux_embedded/programming_module/module_4/src/sumOf1DArray.cpp
-|4,57,4,2,1685019275,"~/Documents/Projects/Embedded/Linux_embedded/programming_module/module_4/src/sumOf1DArray.cpp"
+'L  24  0  ~/.vimrc
+|4,76,24,0,1691233921,"~/.vimrc"
+'0  10  0  ~/Documents/Projects/public_saving/.config/gtk-3.0/gtk.css
+|4,48,10,0,1699455403,"~/Documents/Projects/public_saving/.config/gtk-3.0/gtk.css"
+'1  1  0  ~/a.out
+|4,49,1,0,1699455121,"~/a.out"
+'2  4  0  ~/Documents/Projects/Embedded/Linux_embedded/04.Linux-tutorial/02.Linux-Programming-N-System/03-process/zombie/main.c
+|4,50,4,0,1697259822,"~/Documents/Projects/Embedded/Linux_embedded/04.Linux-tutorial/02.Linux-Programming-N-System/03-process/zombie/main.c"
+'3  1  0  ~/Documents/Projects/Embedded/Linux_embedded/04.Linux-tutorial/02.Linux-Programming-N-System/03-process/wait-waitpid/main.c
+|4,51,1,0,1697259777,"~/Documents/Projects/Embedded/Linux_embedded/04.Linux-tutorial/02.Linux-Programming-N-System/03-process/wait-waitpid/main.c"
+'4  4  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,52,4,0,1697256511,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+'5  1  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,53,1,0,1697252149,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+'6  1  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,54,1,0,1697252149,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+'7  14  49  ~/Documents/Languages/01.IELTS-test/02.My-daily-diary-folder/25-09_diarry
+|4,55,14,49,1695613848,"~/Documents/Languages/01.IELTS-test/02.My-daily-diary-folder/25-09_diarry"
+'8  11  0  ~/Documents/Languages/01.IELTS-test/02.My-daily-diary-folder/25-09_diarry
+|4,56,11,0,1695613711,"~/Documents/Languages/01.IELTS-test/02.My-daily-diary-folder/25-09_diarry"
+'9  11  0  ~/Documents/Languages/01.IELTS-test/02.My-daily-diary-folder/25-09_diarry
+|4,57,11,0,1695613711,"~/Documents/Languages/01.IELTS-test/02.My-daily-diary-folder/25-09_diarry"
 
 # Jumplist (newest first):
--'  146  31  ~/.bashrc
-|4,39,146,31,1687873800,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1687873689,"~/.bashrc"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/static-N-shared-lib/main.c
-|4,39,1,0,1685794999,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/static-N-shared-lib/main.c"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/static-N-shared-lib/main.c
-|4,39,1,0,1685794999,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/static-N-shared-lib/main.c"
--'  8  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/static-N-shared-lib
-|4,39,8,0,1685794966,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/static-N-shared-lib"
--'  8  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/static-N-shared-lib
-|4,39,8,0,1685794966,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/static-N-shared-lib"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/static-N-shared-lib
-|4,39,1,0,1685794954,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/static-N-shared-lib"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/static-N-shared-lib
-|4,39,1,0,1685794954,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/static-N-shared-lib"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/static-N-shared-lib
-|4,39,1,0,1685794954,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/static-N-shared-lib"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/static-N-shared-lib
-|4,39,1,0,1685794954,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/static-N-shared-lib"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/static-N-shared-lib/inc/hello_minh.h
-|4,39,1,0,1685794937,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/static-N-shared-lib/inc/hello_minh.h"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/static-N-shared-lib/inc/hello_minh.h
-|4,39,1,0,1685794937,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/static-N-shared-lib/inc/hello_minh.h"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/static-N-shared-lib/inc/hello_minh.h
-|4,39,1,0,1685794937,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/static-N-shared-lib/inc/hello_minh.h"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/static-N-shared-lib/inc/hello_minh.h
-|4,39,1,0,1685794937,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/static-N-shared-lib/inc/hello_minh.h"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/static-N-shared-lib/inc/hello_minh.h
-|4,39,1,0,1685794937,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/static-N-shared-lib/inc/hello_minh.h"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/static-N-shared-lib/inc/hello_minh.h
-|4,39,1,0,1685794937,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/static-N-shared-lib/inc/hello_minh.h"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/static-N-shared-lib/inc/hello_minh.h
-|4,39,1,0,1685794937,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/static-N-shared-lib/inc/hello_minh.h"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/static-N-shared-lib/inc/hello_minh.h
-|4,39,1,0,1685794937,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/static-N-shared-lib/inc/hello_minh.h"
--'  10  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/static-N-shared-lib
-|4,39,10,0,1685794932,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/static-N-shared-lib"
--'  10  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/static-N-shared-lib
-|4,39,10,0,1685794932,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/static-N-shared-lib"
--'  10  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/static-N-shared-lib
-|4,39,10,0,1685794932,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/static-N-shared-lib"
--'  10  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/static-N-shared-lib
-|4,39,10,0,1685794932,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/static-N-shared-lib"
--'  8  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/static-N-shared-lib
-|4,39,8,0,1685794929,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/static-N-shared-lib"
--'  8  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/static-N-shared-lib
-|4,39,8,0,1685794929,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/static-N-shared-lib"
--'  8  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/static-N-shared-lib
-|4,39,8,0,1685794929,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/static-N-shared-lib"
--'  8  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/static-N-shared-lib
-|4,39,8,0,1685794929,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/static-N-shared-lib"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials/Makefile
-|4,39,1,0,1685794907,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials/Makefile"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials/Makefile
-|4,39,1,0,1685794907,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials/Makefile"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials/Makefile
-|4,39,1,0,1685794907,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials/Makefile"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials/Makefile
-|4,39,1,0,1685794907,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials/Makefile"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials/Makefile
-|4,39,1,0,1685794907,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials/Makefile"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials/Makefile
-|4,39,1,0,1685794907,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials/Makefile"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials/Makefile
-|4,39,1,0,1685794907,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials/Makefile"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials/Makefile
-|4,39,1,0,1685794907,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials/Makefile"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials/Makefile
-|4,39,1,0,1685794907,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials/Makefile"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials/Makefile
-|4,39,1,0,1685794907,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials/Makefile"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials/Makefile
-|4,39,1,0,1685794907,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials/Makefile"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials/Makefile
-|4,39,1,0,1685794907,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials/Makefile"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials/Makefile
-|4,39,1,0,1685794907,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials/Makefile"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials/Makefile
-|4,39,1,0,1685794907,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials/Makefile"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials/Makefile
-|4,39,1,0,1685794907,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials/Makefile"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials/Makefile
-|4,39,1,0,1685794907,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials/Makefile"
--'  8  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials
-|4,39,8,0,1685794901,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials"
--'  8  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials
-|4,39,8,0,1685794901,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials"
--'  8  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials
-|4,39,8,0,1685794901,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials"
--'  8  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials
-|4,39,8,0,1685794901,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials"
--'  8  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials
-|4,39,8,0,1685794901,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials"
--'  8  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials
-|4,39,8,0,1685794901,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials"
--'  8  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials
-|4,39,8,0,1685794901,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials"
--'  8  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials
-|4,39,8,0,1685794901,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials"
--'  8  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials
-|4,39,8,0,1685794901,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials"
--'  8  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials
-|4,39,8,0,1685794901,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials"
--'  8  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials
-|4,39,8,0,1685794901,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials"
--'  8  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials
-|4,39,8,0,1685794901,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials"
--'  8  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials
-|4,39,8,0,1685794901,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials"
--'  8  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials
-|4,39,8,0,1685794901,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials"
--'  8  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials
-|4,39,8,0,1685794901,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials"
--'  8  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials
-|4,39,8,0,1685794901,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/make-tutorials"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile
-|4,39,1,0,1685794878,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile
-|4,39,1,0,1685794878,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile
-|4,39,1,0,1685794878,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile
-|4,39,1,0,1685794878,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile
-|4,39,1,0,1685794878,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile
-|4,39,1,0,1685794878,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile
-|4,39,1,0,1685794878,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile
-|4,39,1,0,1685794878,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile
-|4,39,1,0,1685794878,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile
-|4,39,1,0,1685794878,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile
-|4,39,1,0,1685794878,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile
-|4,39,1,0,1685794878,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile
-|4,39,1,0,1685794878,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile
-|4,39,1,0,1685794878,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile
-|4,39,1,0,1685794878,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile
-|4,39,1,0,1685794878,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile
-|4,39,1,0,1685794878,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile
-|4,39,1,0,1685794878,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile
-|4,39,1,0,1685794878,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile
-|4,39,1,0,1685794878,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile
-|4,39,1,0,1685794878,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile
-|4,39,1,0,1685794878,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile
-|4,39,1,0,1685794878,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile
-|4,39,1,0,1685794878,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile
-|4,39,1,0,1685794878,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile
-|4,39,1,0,1685794878,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile
-|4,39,1,0,1685794878,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile
-|4,39,1,0,1685794878,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile
-|4,39,1,0,1685794878,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile
-|4,39,1,0,1685794878,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile
-|4,39,1,0,1685794878,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile
-|4,39,1,0,1685794878,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/hello.c
-|4,39,1,0,1685794866,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/hello.c"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/hello.c
-|4,39,1,0,1685794866,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/hello.c"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/hello.c
-|4,39,1,0,1685794866,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/hello.c"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/hello.c
-|4,39,1,0,1685794866,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/hello.c"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/hello.c
-|4,39,1,0,1685794866,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/hello.c"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/hello.c
-|4,39,1,0,1685794866,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/hello.c"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/hello.c
-|4,39,1,0,1685794866,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/hello.c"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/hello.c
-|4,39,1,0,1685794866,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/hello.c"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/hello.c
-|4,39,1,0,1685794866,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/hello.c"
--'  1  0  ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/hello.c
-|4,39,1,0,1685794866,"~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/hello.c"
+-'  10  0  ~/Documents/Projects/public_saving/.config/gtk-3.0/gtk.css
+|4,39,10,0,1699455403,"~/Documents/Projects/public_saving/.config/gtk-3.0/gtk.css"
+-'  1  0  ~/Documents/Projects/public_saving/.config/gtk-3.0/gtk.css
+|4,39,1,0,1699455395,"~/Documents/Projects/public_saving/.config/gtk-3.0/gtk.css"
+-'  1  0  ~/a.out
+|4,39,1,0,1699455121,"~/a.out"
+-'  1  0  ~/a.out
+|4,39,1,0,1699455121,"~/a.out"
+-'  4  0  ~/Documents/Projects/Embedded/Linux_embedded/04.Linux-tutorial/02.Linux-Programming-N-System/03-process/zombie/main.c
+|4,39,4,0,1697259822,"~/Documents/Projects/Embedded/Linux_embedded/04.Linux-tutorial/02.Linux-Programming-N-System/03-process/zombie/main.c"
+-'  4  0  ~/Documents/Projects/Embedded/Linux_embedded/04.Linux-tutorial/02.Linux-Programming-N-System/03-process/zombie/main.c
+|4,39,4,0,1697259822,"~/Documents/Projects/Embedded/Linux_embedded/04.Linux-tutorial/02.Linux-Programming-N-System/03-process/zombie/main.c"
+-'  4  0  ~/Documents/Projects/Embedded/Linux_embedded/04.Linux-tutorial/02.Linux-Programming-N-System/03-process/zombie/main.c
+|4,39,4,0,1697259822,"~/Documents/Projects/Embedded/Linux_embedded/04.Linux-tutorial/02.Linux-Programming-N-System/03-process/zombie/main.c"
+-'  4  0  ~/Documents/Projects/Embedded/Linux_embedded/04.Linux-tutorial/02.Linux-Programming-N-System/03-process/zombie/main.c
+|4,39,4,0,1697259822,"~/Documents/Projects/Embedded/Linux_embedded/04.Linux-tutorial/02.Linux-Programming-N-System/03-process/zombie/main.c"
+-'  1  0  ~/Documents/Projects/Embedded/Linux_embedded/04.Linux-tutorial/02.Linux-Programming-N-System/03-process/zombie/main.c
+|4,39,1,0,1697259786,"~/Documents/Projects/Embedded/Linux_embedded/04.Linux-tutorial/02.Linux-Programming-N-System/03-process/zombie/main.c"
+-'  1  0  ~/Documents/Projects/Embedded/Linux_embedded/04.Linux-tutorial/02.Linux-Programming-N-System/03-process/zombie/main.c
+|4,39,1,0,1697259786,"~/Documents/Projects/Embedded/Linux_embedded/04.Linux-tutorial/02.Linux-Programming-N-System/03-process/zombie/main.c"
+-'  1  0  ~/Documents/Projects/Embedded/Linux_embedded/04.Linux-tutorial/02.Linux-Programming-N-System/03-process/zombie/main.c
+|4,39,1,0,1697259786,"~/Documents/Projects/Embedded/Linux_embedded/04.Linux-tutorial/02.Linux-Programming-N-System/03-process/zombie/main.c"
+-'  1  0  ~/Documents/Projects/Embedded/Linux_embedded/04.Linux-tutorial/02.Linux-Programming-N-System/03-process/zombie/main.c
+|4,39,1,0,1697259786,"~/Documents/Projects/Embedded/Linux_embedded/04.Linux-tutorial/02.Linux-Programming-N-System/03-process/zombie/main.c"
+-'  1  0  ~/Documents/Projects/Embedded/Linux_embedded/04.Linux-tutorial/02.Linux-Programming-N-System/03-process/wait-waitpid/main.c
+|4,39,1,0,1697259777,"~/Documents/Projects/Embedded/Linux_embedded/04.Linux-tutorial/02.Linux-Programming-N-System/03-process/wait-waitpid/main.c"
+-'  1  0  ~/Documents/Projects/Embedded/Linux_embedded/04.Linux-tutorial/02.Linux-Programming-N-System/03-process/wait-waitpid/main.c
+|4,39,1,0,1697259777,"~/Documents/Projects/Embedded/Linux_embedded/04.Linux-tutorial/02.Linux-Programming-N-System/03-process/wait-waitpid/main.c"
+-'  1  0  ~/Documents/Projects/Embedded/Linux_embedded/04.Linux-tutorial/02.Linux-Programming-N-System/03-process/wait-waitpid/main.c
+|4,39,1,0,1697259777,"~/Documents/Projects/Embedded/Linux_embedded/04.Linux-tutorial/02.Linux-Programming-N-System/03-process/wait-waitpid/main.c"
+-'  1  0  ~/Documents/Projects/Embedded/Linux_embedded/04.Linux-tutorial/02.Linux-Programming-N-System/03-process/wait-waitpid/main.c
+|4,39,1,0,1697259777,"~/Documents/Projects/Embedded/Linux_embedded/04.Linux-tutorial/02.Linux-Programming-N-System/03-process/wait-waitpid/main.c"
+-'  1  0  ~/Documents/Projects/Embedded/Linux_embedded/04.Linux-tutorial/02.Linux-Programming-N-System/03-process/wait-waitpid/main.c
+|4,39,1,0,1697259777,"~/Documents/Projects/Embedded/Linux_embedded/04.Linux-tutorial/02.Linux-Programming-N-System/03-process/wait-waitpid/main.c"
+-'  1  0  ~/Documents/Projects/Embedded/Linux_embedded/04.Linux-tutorial/02.Linux-Programming-N-System/03-process/wait-waitpid/main.c
+|4,39,1,0,1697259777,"~/Documents/Projects/Embedded/Linux_embedded/04.Linux-tutorial/02.Linux-Programming-N-System/03-process/wait-waitpid/main.c"
+-'  1  0  ~/Documents/Projects/Embedded/Linux_embedded/04.Linux-tutorial/02.Linux-Programming-N-System/03-process/wait-waitpid/main.c
+|4,39,1,0,1697259777,"~/Documents/Projects/Embedded/Linux_embedded/04.Linux-tutorial/02.Linux-Programming-N-System/03-process/wait-waitpid/main.c"
+-'  1  0  ~/Documents/Projects/Embedded/Linux_embedded/04.Linux-tutorial/02.Linux-Programming-N-System/03-process/wait-waitpid/main.c
+|4,39,1,0,1697259777,"~/Documents/Projects/Embedded/Linux_embedded/04.Linux-tutorial/02.Linux-Programming-N-System/03-process/wait-waitpid/main.c"
+-'  4  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,4,0,1697256511,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  4  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,4,0,1697256511,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  4  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,4,0,1697256511,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  4  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,4,0,1697256511,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  4  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,4,0,1697256511,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  4  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,4,0,1697256511,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  4  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,4,0,1697256511,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  4  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,4,0,1697256511,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  4  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,4,0,1697256511,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  4  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,4,0,1697256511,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  4  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,4,0,1697256511,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  4  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,4,0,1697256511,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  4  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,4,0,1697256511,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  4  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,4,0,1697256511,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  4  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,4,0,1697256511,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  4  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,4,0,1697256511,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  1  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,1,0,1697252262,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  1  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,1,0,1697252262,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  1  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,1,0,1697252262,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  1  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,1,0,1697252262,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  1  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,1,0,1697252262,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  1  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,1,0,1697252262,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  1  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,1,0,1697252262,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  1  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,1,0,1697252262,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  1  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,1,0,1697252262,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  1  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,1,0,1697252262,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  1  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,1,0,1697252262,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  1  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,1,0,1697252262,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  1  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,1,0,1697252262,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  1  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,1,0,1697252262,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  1  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,1,0,1697252262,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  1  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,1,0,1697252262,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  1  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,1,0,1697252149,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  1  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,1,0,1697252149,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  1  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,1,0,1697252149,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  1  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,1,0,1697252149,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  1  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,1,0,1697252149,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  1  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,1,0,1697252149,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  1  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,1,0,1697252149,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  1  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,1,0,1697252149,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  1  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,1,0,1697252149,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  1  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,1,0,1697252149,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  1  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,1,0,1697252149,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  1  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,1,0,1697252149,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  1  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,1,0,1697252149,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  1  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,1,0,1697252149,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  1  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,1,0,1697252149,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  1  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,1,0,1697252149,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  1  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,1,0,1697252149,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  1  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,1,0,1697252149,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  1  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,1,0,1697252149,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  1  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,1,0,1697252149,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  1  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,1,0,1697252149,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  1  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,1,0,1697252149,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  1  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,1,0,1697252149,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  1  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,1,0,1697252149,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  1  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,1,0,1697252149,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  1  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,1,0,1697252149,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  1  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,1,0,1697252149,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  1  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,1,0,1697252149,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  1  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,1,0,1697252149,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  1  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,1,0,1697252149,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  1  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,1,0,1697252149,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  1  0  ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+|4,39,1,0,1697252149,"~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note"
+-'  14  49  ~/Documents/Languages/01.IELTS-test/02.My-daily-diary-folder/25-09_diarry
+|4,39,14,49,1695613848,"~/Documents/Languages/01.IELTS-test/02.My-daily-diary-folder/25-09_diarry"
+-'  14  49  ~/Documents/Languages/01.IELTS-test/02.My-daily-diary-folder/25-09_diarry
+|4,39,14,49,1695613848,"~/Documents/Languages/01.IELTS-test/02.My-daily-diary-folder/25-09_diarry"
+-'  14  49  ~/Documents/Languages/01.IELTS-test/02.My-daily-diary-folder/25-09_diarry
+|4,39,14,49,1695613848,"~/Documents/Languages/01.IELTS-test/02.My-daily-diary-folder/25-09_diarry"
+-'  14  49  ~/Documents/Languages/01.IELTS-test/02.My-daily-diary-folder/25-09_diarry
+|4,39,14,49,1695613848,"~/Documents/Languages/01.IELTS-test/02.My-daily-diary-folder/25-09_diarry"
+-'  14  49  ~/Documents/Languages/01.IELTS-test/02.My-daily-diary-folder/25-09_diarry
+|4,39,14,49,1695613848,"~/Documents/Languages/01.IELTS-test/02.My-daily-diary-folder/25-09_diarry"
+-'  14  49  ~/Documents/Languages/01.IELTS-test/02.My-daily-diary-folder/25-09_diarry
+|4,39,14,49,1695613848,"~/Documents/Languages/01.IELTS-test/02.My-daily-diary-folder/25-09_diarry"
+-'  14  49  ~/Documents/Languages/01.IELTS-test/02.My-daily-diary-folder/25-09_diarry
+|4,39,14,49,1695613848,"~/Documents/Languages/01.IELTS-test/02.My-daily-diary-folder/25-09_diarry"
+-'  14  49  ~/Documents/Languages/01.IELTS-test/02.My-daily-diary-folder/25-09_diarry
+|4,39,14,49,1695613848,"~/Documents/Languages/01.IELTS-test/02.My-daily-diary-folder/25-09_diarry"
+-'  14  49  ~/Documents/Languages/01.IELTS-test/02.My-daily-diary-folder/25-09_diarry
+|4,39,14,49,1695613848,"~/Documents/Languages/01.IELTS-test/02.My-daily-diary-folder/25-09_diarry"
+-'  14  49  ~/Documents/Languages/01.IELTS-test/02.My-daily-diary-folder/25-09_diarry
+|4,39,14,49,1695613848,"~/Documents/Languages/01.IELTS-test/02.My-daily-diary-folder/25-09_diarry"
+-'  14  49  ~/Documents/Languages/01.IELTS-test/02.My-daily-diary-folder/25-09_diarry
+|4,39,14,49,1695613848,"~/Documents/Languages/01.IELTS-test/02.My-daily-diary-folder/25-09_diarry"
+-'  14  49  ~/Documents/Languages/01.IELTS-test/02.My-daily-diary-folder/25-09_diarry
+|4,39,14,49,1695613848,"~/Documents/Languages/01.IELTS-test/02.My-daily-diary-folder/25-09_diarry"
+-'  14  49  ~/Documents/Languages/01.IELTS-test/02.My-daily-diary-folder/25-09_diarry
+|4,39,14,49,1695613848,"~/Documents/Languages/01.IELTS-test/02.My-daily-diary-folder/25-09_diarry"
+-'  14  49  ~/Documents/Languages/01.IELTS-test/02.My-daily-diary-folder/25-09_diarry
+|4,39,14,49,1695613848,"~/Documents/Languages/01.IELTS-test/02.My-daily-diary-folder/25-09_diarry"
+-'  14  49  ~/Documents/Languages/01.IELTS-test/02.My-daily-diary-folder/25-09_diarry
+|4,39,14,49,1695613848,"~/Documents/Languages/01.IELTS-test/02.My-daily-diary-folder/25-09_diarry"
+-'  14  49  ~/Documents/Languages/01.IELTS-test/02.My-daily-diary-folder/25-09_diarry
+|4,39,14,49,1695613848,"~/Documents/Languages/01.IELTS-test/02.My-daily-diary-folder/25-09_diarry"
 
 # History of marks within files (newest to oldest):
 
+> ~/Documents/Projects/public_saving/.config/gtk-3.0/gtk.css
+	*	1699455403	0
+	"	10	0
+
+> ~/a.out
+	*	1699455120	0
+	"	1	0
+
+> ~/Documents/Projects/Embedded/Linux_embedded/04.Linux-tutorial/02.Linux-Programming-N-System/03-process/zombie/main.c
+	*	1697259821	0
+	"	4	0
+
+> ~/Documents/Projects/Embedded/Linux_embedded/04.Linux-tutorial/02.Linux-Programming-N-System/03-process/wait-waitpid/main.c
+	*	1697259776	0
+	"	1	0
+
+> ~/Documents/Projects/Embedded/Linux_embedded/05.MyProjects/01.Makefile/Note
+	*	1697256510	0
+	"	4	0
+	^	2	80
+	.	2	79
+	+	1	0
+	+	7	0
+	+	2	55
+	+	2	79
+
+> ~/Documents/Languages/01.IELTS-test/02.My-daily-diary-folder/25-09_diarry
+	*	1695613847	0
+	"	14	49
+	^	14	50
+	.	14	49
+	+	9	35
+	+	3	0
+	+	1	55
+	+	10	0
+	+	9	88
+	+	10	55
+	+	6	1
+	+	8	1
+	+	12	20
+	+	11	20
+	+	14	49
+
+> ~/Documents/Languages/01.IELTS-test/02.My-daily-diary
+	*	1695613249	0
+	"	1	7
+	^	1	8
+	.	1	7
+	+	2	8
+	+	1	6
+	+	4	0
+	+	1	7
+
+> ~/Documents/Languages/01.IELTS-test/01.Journal-vs-diary
+	*	1695613091	0
+	"	2	79
+	^	2	80
+	.	2	79
+	+	2	79
+
+> ~/Documents/Languages/02.Chinese-lesson/01.打招呼/lesson-1
+	*	1695539475	0
+	"	1	6
+	^	18	0
+	.	18	0
+	+	1	9
+	+	2	62
+	+	7	1
+	+	2	0
+	+	11	1
+	+	7	0
+	+	2	93
+	+	5	1
+	+	3	34
+	+	4	31
+	+	5	24
+	+	7	6
+	+	9	0
+	+	9	6
+	+	8	7
+	+	9	9
+	+	11	0
+	+	19	0
+	+	14	31
+	+	14	0
+	+	11	0
+	+	8	17
+	+	11	0
+	+	6	0
+	+	13	8
+	+	14	0
+	+	13	37
+	+	14	0
+	+	18	0
+
+> ~/Documents/Languages/02.Chinese-lesson/01.打招呼/lessson
+	*	1695536667	0
+	"	1	0
+
+> ~/Documents/Start-up/Note-01
+	*	1695533396	0
+	"	1	24
+	^	1	25
+	.	1	24
+	+	1	24
+
+> ~/Documents/Languages/02.Chinese-lesson/01.打招呼/学校
+	*	1695432556	0
+	"	4	27
+	.	4	24
+	+	4	24
+
 > ~/.bashrc
-	*	1687873798	0
-	"	146	31
-	^	146	32
-	.	146	30
-	+	146	12
-	+	145	17
-	+	146	30
+	*	1693129449	0
+	"	101	6
+	^	141	38
+	.	141	34
+	+	203	12
+	+	202	17
+	+	203	30
+	+	101	17
+	+	103	9
+	+	104	21
+	+	105	32
+	+	106	27
+	+	108	45
+	+	28	0
+	+	18	9
+	+	154	0
+	+	153	0
+	+	152	0
+	+	151	0
+	+	150	0
+	+	149	0
+	+	148	0
+	+	147	0
+	+	110	17
+	+	145	0
+	+	111	8
+	+	112	15
+	+	114	36
+	+	123	69
+	+	125	57
+	+	126	48
+	+	127	18
+	+	144	0
+	+	127	40
+	+	129	50
+	+	143	0
+	+	129	51
+	+	130	45
+	+	129	51
+	+	131	18
+	+	140	0
+	+	133	53
+	+	136	30
+	+	138	26
+	+	139	26
+	+	140	44
+	+	140	43
+	+	141	51
+	+	142	41
+	+	123	38
+	+	127	30
+	+	123	66
+	+	114	30
+	+	125	39
+	+	114	36
+	+	129	39
+	+	142	41
+	+	125	51
+	+	166	0
+	+	135	17
+	+	120	0
+	+	136	8
+	+	137	18
+	+	141	34
+
+> ~/.vimrc
+	*	1693129443	0
+	"	1	0
+	.	77	0
+	+	3	95
+	+	6	0
+	+	6	103
+	+	6	119
+	+	6	0
+	+	3	98
+	+	8	22
+	+	10	0
+	+	47	0
+	+	5	8
+	+	6	82
+	+	3	95
+	+	6	48
+	+	2	0
+	+	6	26
+	+	6	47
+	+	6	64
+	+	6	81
+	+	6	82
+	+	6	102
+	+	6	118
+	+	6	134
+	+	6	150
+	+	6	166
+	+	7	0
+	+	9	17
+	+	10	0
+	+	2	1
+	+	3	95
+	+	10	0
+	+	19	0
+	+	20	0
+	+	47	0
+	+	15	14
+	+	29	0
+	+	23	0
+	+	24	0
+	+	27	0
+	+	40	0
+	+	47	0
+	+	51	0
+	+	52	0
+	+	92	0
+	+	51	0
+	+	44	0
+	+	47	0
+	+	15	0
+	+	19	0
+	+	3	95
+	+	5	0
+	+	2	0
+	+	95	0
+	+	93	0
+	+	94	0
+	+	15	0
+	+	94	54
+	+	65	0
+	+	65	51
+	+	65	0
+	+	19	0
+	+	66	0
+	+	65	0
+	+	18	0
+	+	19	0
+	+	15	28
+	+	18	54
+	+	3	0
+	+	64	13
+	+	2	0
+	+	26	0
+	+	96	0
+	+	3	95
+	+	2	13
+	+	25	0
+	+	2	0
+	+	26	0
+	+	3	95
+	+	21	0
+	+	22	0
+	+	28	0
+	+	4	0
+	+	64	0
+	+	71	0
+	+	5	0
+	+	64	0
+	+	15	10
+	+	15	9
+	+	15	14
+	+	1	0
+	+	15	0
+	+	13	0
+	+	15	0
+	+	17	53
+	+	18	0
+	+	49	13
+	+	91	9
+	+	48	24
+	+	74	16
+	+	77	0
+
+> ~/Documents/Projects/test/test.sh
+	*	1691428968	0
+	"	8	24
+	^	8	25
+	.	8	24
+	+	11	42
+	+	4	22
+	+	6	43
+	+	10	0
+	+	9	0
+	+	8	24
+
+> ~/Documents/Projects/test/test.bsh
+	*	1691427515	0
+	"	1	0
+
+> ~/Documents/Projects/test/vimouse-master/keyb.py
+	*	1691426324	0
+	"	90	12
+
+> ~/.tmux.conf
+	*	1691233745	0
+	"	21	45
+	^	21	46
+	.	21	45
+	+	1	48
+	+	1	0
+	+	1	57
+	+	1	49
+	+	1	32
+	+	1	50
+	+	1	43
+	+	1	0
+	+	1	50
+	+	1	43
+	+	13	0
+	+	14	0
+	+	1	50
+	+	1	44
+	+	1	0
+	+	13	0
+	+	14	0
+	+	1	52
+	+	1	0
+	+	16	0
+	+	1	0
+	+	12	0
+	+	13	0
+	+	10	0
+	+	12	0
+	+	10	0
+	+	9	29
+	+	1	48
+	+	11	50
+	+	9	0
+	+	10	0
+	+	10	44
+	+	11	49
+	+	10	44
+	+	9	36
+	+	9	16
+	+	9	25
+	+	9	0
+	+	1	81
+	+	9	0
+	+	1	68
+	+	9	0
+	+	9	6
+	+	1	81
+	+	1	48
+	+	2	0
+	+	10	0
+	+	9	0
+	+	10	0
+	+	9	13
+	+	5	27
+	+	6	28
+	+	2	22
+	+	3	19
+	+	4	29
+	+	10	0
+	+	11	0
+	+	10	0
+	+	2	0
+	+	9	0
+	+	7	0
+	+	9	0
+	+	9	92
+	+	2	0
+	+	9	0
+	+	7	0
+	+	9	0
+	+	10	0
+	+	9	0
+	+	10	0
+	+	9	0
+	+	8	47
+	+	9	1
+	+	10	0
+	+	6	29
+	+	21	44
+	+	1	9
+	+	21	45
+
+> ~/.vim/colors/molokayo.vim
+	*	1691233501	0
+	"	1	0
+	^	100	36
+	.	100	35
+	+	30	0
+	+	31	0
+	+	45	31
+	+	14	60
+	+	15	49
+	+	14	0
+	+	15	0
+	+	14	60
+	+	100	35
+
+> ~/helo
+	*	1691233357	0
+	"	1	0
+
+> ~/.vim/colors/molokayo.vim.vim
+	*	1691232695	0
+	"	1	0
+
+> ~/.vim/colors/molokai.vim
+	*	1691232644	0
+	"	278	0
+	^	278	0
+	.	277	46
+	+	1	0
+	+	277	46
+
+> ~/.vim/plugin/diminactive.vim
+	*	1691231030	0
+	"	540	4
+	^	540	6
+	.	540	4
+	+	540	4
+
+> ~/.vim/.bashrc
+	*	1691230306	0
+	"	1	7
+	^	1	8
+	.	1	7
+	+	1	7
+
+> ~/Documents/Projects/Embedded/Linux_embedded/02.Programming-module/module_2/src/sumOf1DArray.c
+	*	1691228872	0
+	"	1	0
+
+> ~/Documents/Projects/Embedded/Linux_embedded/02.Programming-module/module_1/src/sumOf1DArray.c
+	*	1691228662	0
+	"	1	0
+
+> /.tmux.conf
+	*	1691228486	0
+	"	1	0
+
+> /.tmux.config
+	*	1691228481	0
+	"	1	0
+
+> ~/.basrhc
+	*	1691228458	0
+	"	1	0
+
+> ~/he
+	*	1691224885	0
+	"	1	0
+
+> /usr/share/vim/vim81/doc/index.txt
+	*	1691222863	0
+	"	123	4
+
+> /usr/share/vim/vim81/doc/help.txt
+	*	1691218653	0
+	"	1	0
+
+> ~/.conf
+	*	1691218187	0
+	"	1	0
+
+> ~/Documents/Projects/Embedded/AOSP/00.Source-code/01.AOSP-source/.repo/manifests/default.xml
+	*	1688747202	0
+	"	12	0
+
+> ~/Documents/Projects/Embedded/AOSP/00.Source-code/01.AOSP-source/BUILD
+	*	1688747145	0
+	"	1	0
+
+> ~/Documents/Projects/Embedded/AOSP/00.Source-code/02.Android-kernel/build/build_test.sh
+	*	1688746367	0
+	"	1	0
+
+> ~/Documents/Projects/Embedded/Linux_embedded/04.Linux-tutorial/03.Practice-Linux-Programming/01.Makefile-tutorial/01.Introduction/01.Make-Proccess/Makefile
+	*	1688651819	0
+	"	22	11
+	^	22	12
+	.	22	11
+	+	26	166
+	+	27	0
+	+	25	0
+	+	22	11
+
+> ~/Documents/Projects/Embedded/Linux_embedded/04.Linux-tutorial/03.Practice-Linux-Programming/01.Makefile-tutorial/01.Introduction/01.Make-Proccess/MA
+	*	1688570246	0
+	"	1	0
+
+> ~/Documents/Projects/Embedded/Linux_embedded/04.Linux-tutorial/03.Practice-Linux-Programming/01.Makefile-tutorial/01.Introduction/02.Make-Variable/Makefile
+	*	1688488226	0
+	"	26	0
+	^	20	133
+	.	20	133
+	+	1	0
+	+	10	1
+	+	1	82
+	+	10	12
+	+	14	0
+	+	10	0
+	+	10	26
+	+	7	13
+	+	7	15
+	+	10	11
+	+	10	0
+	+	10	2
+	+	10	3
+	+	7	13
+	+	10	18
+	+	10	13
+	+	10	0
+	+	10	6
+	+	14	0
+	+	16	0
+	+	7	0
+	+	7	3
+	+	7	17
+	+	7	0
+	+	7	13
+	+	10	12
+	+	10	10
+	+	7	0
+	+	7	13
+	+	10	13
+	+	10	11
+	+	10	14
+	+	10	16
+	+	7	14
+	+	1	0
+	+	7	14
+	+	10	11
+	+	10	13
+	+	10	14
+	+	10	16
+	+	10	12
+	+	7	0
+	+	10	0
+	+	7	0
+	+	7	7
+	+	10	14
+	+	7	6
+	+	10	16
+	+	10	0
+	+	10	1
+	+	10	5
+	+	10	0
+	+	11	16
+	+	13	0
+	+	7	0
+	+	15	17
+	+	12	2
+	+	23	21
+	+	25	7
+	+	23	7
+	+	24	2
+	+	17	0
+	+	7	0
+	+	2	0
+	+	17	0
+	+	6	0
+	+	2	146
+	+	6	98
+	+	6	0
+	+	3	0
+	+	17	1
+	+	5	0
+	+	20	133
+
+> ~/Documents/Projects/Embedded/Linux_embedded/04.Linux-tutorial/03.Practice-Linux-Programming/01.Makefile-tutorial/01.Introduction/02.Make-Variable/MA
+	*	1688481036	0
+	"	1	0
+
+> ~/ll
+	*	1688467877	0
+	"	1	0
+
+> ~/Documents/Projects/Storage/.git/MERGE_MSG
+	*	1688411436	0
+	"	1	0
+
+> ~/Documents/Projects/Storage/.git/rebase-merge/git-rebase-todo
+	*	1688411154	0
+	"	1	0
+
+> ~/Documents/Projects/Storage/.git/COMMIT_EDITMSG
+	*	1688410928	0
+	"	1	0
+	^	2	21
+	.	2	20
+	+	2	20
+
+> ~/Documents/Projects/Storage/.config/gtk-3.0/gtk.css
+	*	1688410315	0
+	"	1	0
+
+> ~/Documents/Projects/Storage/.tmux.conf
+	*	1688410201	0
+	"	1	0
+
+> ~/.config/gtk-3.0/gtk.css
+	*	1688409000	0
+	"	2	0
+	^	18	21
+	.	2	0
+	+	3	1
+	+	10	0
+	+	3	24
+	+	10	0
+	+	9	0
+	+	3	0
+	+	8	0
+	+	3	0
+	+	3	20
+	+	3	0
+	+	3	28
+	+	3	1
+	+	3	3
+	+	3	0
+	+	3	1
+	+	3	0
+	+	3	1
+	+	3	2
+	+	3	0
+	+	3	39
+	+	3	29
+	+	3	0
+	+	13	1
+	+	3	1
+	+	13	1
+	+	13	30
+	+	13	0
+	+	12	0
+	+	3	0
+	+	13	25
+	+	13	17
+	+	14	27
+	+	15	0
+	+	14	12
+	+	13	27
+	+	14	20
+	+	17	45
+	+	18	20
+	+	2	0
+
+> /usr/share/gnome-shell/theme/gnome-classic.css
+	*	1688406901	0
+	"	1296	16
+
+> /usr/share/gnome-shell/theme/gnome-classic
+	*	1688406837	0
+	"	1	0
+
+> ~/.config/gtk-3.0/settings.ini
+	*	1688406647	0
+	"	1	0
+
+> ~/.config/gtk-4.0/gtk.css
+	*	1688406613	0
+	"	11	0
+	.	11	0
+	+	2	0
+	+	11	0
+
+> ~/.config/gtk-4.0/.0/gtk.css
+	*	1688406598	0
+	"	1	0
+
+> ~/.themes/custom/gnome-shell/gnome-shell.css
+	*	1688405179	0
+	"	1194	143
+	^	2123	29
+	.	2123	28
+	+	1157	22
+	+	1591	0
+	+	1157	23
+	+	2151	0
+	+	2150	0
+	+	2149	0
+	+	2148	0
+	+	2147	0
+	+	2119	0
+	+	2120	0
+	+	2148	0
+	+	1157	0
+	+	2123	28
+	+	2120	0
+	+	2118	0
+	+	25	0
+	+	23	16
+	+	24	3
+	+	23	0
+	+	24	2
+	+	23	0
+	+	1157	23
+	+	2123	28
+
+> /usr/share/gnome-shell/theme/Yaru/gnome-shell-theme.gresource
+	*	1688400010	0
+	"	1	0
+
+> /usr/share/gnome-background-properties/focal-wallpapers.xml
+	*	1688399868	0
+	"	1	0
+
+> ~/.config/gtk-3.0/sudo
+	*	1688398389	0
+	"	1	0
+
+> /etc/fstab
+	*	1688395078	0
+	"	14	0
+	.	16	0
+	+	16	0
+
+> ~/Documents/Projects/Embedded/Linux_embedded/04.Linux-tutorial/03.Practice-Linux-Programming/01.Makefile-tutorial/01.Introduction/test2/test_git/.git/MERGE_MSG
+	*	1688301430	0
+	"	1	0
+
+> ~/Documents/Projects/Embedded/Linux_embedded/04.Linux-tutorial/03.Practice-Linux-Programming/01.Makefile-tutorial/01.Introduction/test/.git/MERGE_MSG
+	*	1688300871	0
+	"	1	0
+
+> ~/Documents/Projects/Embedded/Linux_embedded/04.Linux-tutorial/03.Practice-Linux-Programming/01.Makefile-tutorial/01.Introduction/test/.git/COMMIT_EDITMSG
+	*	1688299065	0
+	"	1	0
+
+> ~/Documents/Projects/Embedded/Linux_embedded/04.Linux-tutorial/03.Practice-Linux-Programming/01.Makefile-tutorial/01.Introduction/test/a.txt
+	*	1688298209	0
+	"	1	0
+	^	10	9
+	.	10	8
+	+	3	0
+	+	2	0
+	+	3	0
+	+	14	0
+	+	13	0
+	+	6	15
+	+	12	22
+	+	6	0
+	+	11	0
+	+	7	0
+	+	5	0
+	+	4	0
+	+	7	24
+	+	11	33
+	+	10	8
+
+> ~/Documents/Projects/Embedded/Linux_embedded/04.Linux-tutorial/03.Practice-Linux-Programming/01.Makefile-tutorial/01.Introduction/test/a
+	*	1688297784	0
+	"	1	0
+
+> ~/Documents/Projects/Embedded/Linux_embedded/04.Linux-tutorial/03.Practice-Linux-Programming/01.Makefile-tutorial/01.Introduction/test/hello.txt
+	*	1688296924	0
+	"	1	0
+	^	5	1
+	.	5	0
+	+	7	9
+	+	13	0
+	+	5	0
+
+> ~/Documents/Projects/Embedded/Linux_embedded/04.Linux-tutorial/03.Practice-Linux-Programming/01.Makefile-tutorial/01.Introduction/02.Make-Variable/M
+	*	1688295886	0
+	"	1	0
+
+> ~/Documents/Projects/Embedded/Linux_embedded/04.Linux-tutorial/02.Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/Makefile
+	*	1688295368	0
+	"	1	1
+
+> ~/Documents/Projects/Embedded/Linux_embedded/04.Linux-tutorial/02.Linux-Programming-N-System/01-general-knowledge/4-stage-compiling-C/MA
+	*	1688294163	0
+	"	1	0
+
+> ~/Documents/Projects/Embedded/Linux_embedded/04.Linux-tutorial/03.Practice-Linux-Programming/01.Makefile-tutorial/01.Introduction/Makefile
+	*	1688293021	0
+	"	29	0
+	^	23	27
+	.	23	26
+	+	2	64
+	+	9	44
+	+	2	49
+	+	12	128
+	+	29	1
+	+	19	18
+	+	29	0
+	+	28	0
+	+	21	0
+	+	20	0
+	+	21	112
+	+	26	0
+	+	24	1
+	+	21	95
+	+	22	114
+	+	23	26
+
+> ~/Documents/Projects/Embedded/Linux_embedded/04.Linux-tutorial/03.Practice-Linux-Programming/01.Makefile-tutorial/01.Introduction/Make
+	*	1688291650	0
+	"	1	0
+
+> ~/Documents/Projects/Embedded/AOSP/For
+	*	1687955617	0
+	"	1	0
+
+> ~/.profile
+	*	1687874523	0
+	"	1	0
 
 > ~/Documents/Projects/Embedded/myTutorial/Linux-Programming-N-System/01-general-knowledge/static-N-shared-lib/main.c
 	*	1685794999	0
@@ -939,528 +1580,3 @@ $
 > ~/Documents/Projects/Qt_projects/testAppUI/CppApp/ThermostatApp/components/qmldir
 	*	1684422613	0
 	"	1	0
-
-> ~/Documents/Projects/Qt_projects/testAppUI/CppApp/ThermostatApp/resources.qrc
-	*	1684422507	0
-	"	3	0
-
-> ~/Documents/Projects/Qt_projects/testAppUI/testDirectory/Samples/Interaction_between_QML_Cplus/clean-editor-master/ui-qml/src/qml-editor-model.cpp
-	*	1684420819	0
-	"	1	0
-
-> ~/Documents/Projects/Qt_projects/testAppUI/testDirectory/Samples/Interaction_between_QML_Cplus/clean-editor-master/ui-qml/src/line-numbers.h
-	*	1684420798	0
-	"	107	0
-
-> ~/Documents/Projects/Qt_projects/testAppUI/CppApp/IntergratingCppApp/SomeClass.h
-	*	1684420685	0
-	"	1	0
-
-> ~/Documents/Projects/Qt_projects/testAppUI/CppApp/IntergratingCppApp/SomeClass.cpp
-	*	1684420335	0
-	"	1	0
-
-> ~/Documents/Projects/Qt_projects/testAppUI/CppApp/IntergratingCppApp/SomeClass.
-	*	1684420328	0
-	"	1	0
-
-> ~/Documents/Projects/Qt_projects/testAppUI/InfotainmentApp/InfotainmentApp/components/StatusBar.qml
-	*	1684418400	0
-	"	76	0
-
-> ~/Documents/Projects/Qt_projects/testAppUI/InfotainmentApp/InfotainmentApp/components/GridOne.qml
-	*	1684415805	0
-	"	66	0
-	^	6	2
-	.	6	2
-	+	2	22
-	+	1	15
-	+	6	2
-
-> ~/Documents/Projects/Qt_projects/testAppUI/InfotainmentApp/InfotainmentApp/components/ButtonRowLayerMainView.qml
-	*	1684415794	0
-	"	1	0
-
-> ~/Documents/Projects/Qt_projects/testAppUI/testDirectory/Samples/Interaction_between_QML_Cplus/clean-editor-master/ui-qml/CMakeLists.txt
-	*	1684414474	0
-	"	36	0
-
-> ~/Documents/Projects/Qt_projects/testAppUI/testDirectory/Samples/Interaction_between_QML_Cplus/clean-editor-master/ui-qml/resources.qrc
-	*	1684414339	0
-	"	1	0
-
-> ~/Documents/Projects/Qt_projects/testAppUI/CppApp/IntergratingCppApp/main.cpp
-	*	1684413991	0
-	"	1	0
-	^	10	44
-	.	10	43
-	+	10	43
-
-> ~/Documents/Projects/Qt_projects/testAppUI/CppApp/IntergratingCppApp/resources.qrc
-	*	1684412577	0
-	"	3	45
-	^	3	46
-	.	3	45
-	+	4	0
-	+	3	0
-	+	4	0
-	+	3	45
-
-> ~/Documents/Projects/Qt_projects/testAppUI/CppApp/IntergratingCppApp/components/qmldir
-	*	1684412480	0
-	"	1	0
-
-> ~/Documents/Projects/Qt_projects/testAppUI/InfotainmentApp/InfotainmentApp/main.cpp
-	*	1684412422	0
-	"	1	0
-
-> ~/Documents/Projects/Qt_projects/testAppUI/CppApp/IntergratingCppApp/CMakeLists.txt.user
-	*	1684412390	0
-	"	106	0
-
-> ~/Documents/Projects/Qt_projects/testAppUI/CppApp/IntergratingCppApp/CMakeLists.txt
-	*	1684412380	0
-	"	1	0
-	^	3	48
-	.	11	0
-	+	1	0
-	+	35	0
-	+	11	0
-
-> ~/Documents/Projects/Qt_projects/testAppUI/CppApp/IntergratingCppApp/CMakeLists.txt,
-	*	1684412101	0
-	"	1	0
-
-> ~/Documents/Projects/Qt_projects/testAppUI/IntergratingCApp/InfotainmentApp/CMakeLists.txt
-	*	1684411280	0
-	"	54	0
-
-> ~/Documents/Projects/yf5_kotlin/BF200Manager/src/main/java/com/styl/yf3/bf200service/BF200Manager.java
-	*	1684392644	0
-	"	1062	0
-
-> ~/Documents/Projects/yf5_kotlin/BF200Manager/src/main/AndroidManifest.xml
-	*	1684392581	0
-	"	1	0
-
-> ~/Documents/Projects/yf5_kotlin/app/src/main/res/navigation/mobile_navigation.xml
-	*	1684392528	0
-	"	1	0
-
-> ~/Documents/Projects/yf5_kotlin/app/.gitignore
-	*	1684392468	0
-	"	1	0
-
-> ~/Documents/Projects/yf5_kotlin/app/src/main/java/com/styl/yf5/yf5testtool/ui/payment/data/PaymentViewModel.kt
-	*	1684392386	0
-	"	143	0
-
-> ~/Documents/Projects/yf5_kotlin/app/src/main/java/com/styl/yf5/yf5testtool/ui/payment/PaymentFragment.kt
-	*	1684392357	0
-	"	1	0
-
-> ~/Documents/Projects/Qt_projects/testAppUI/InfotainmentApp/InfotainmentApp/resources.qrc
-	*	1684390817	0
-	"	11	4
-	^	11	5
-	.	11	4
-	+	3	24
-	+	1	1
-	+	3	0
-	+	14	28
-	+	14	0
-	+	5	0
-	+	6	28
-	+	7	76
-	+	7	0
-	+	14	0
-	+	7	0
-	+	11	0
-	+	11	28
-	+	7	0
-	+	11	39
-	+	4	33
-	+	5	46
-	+	6	31
-	+	7	49
-	+	8	51
-	+	9	0
-	+	11	0
-	+	9	0
-	+	11	43
-	+	11	0
-	+	1	1
-	+	10	51
-	+	11	4
-
-> ~/Documents/Projects/Qt_projects/testAppUI/InfotainmentApp/InfotainmentApp/txt.txt
-	*	1684388552	0
-	"	1	0
-	^	26	9
-	.	26	8
-	+	1	19
-	+	5	3
-	+	4	0
-	+	5	0
-	+	5	57
-	+	6	3
-	+	5	2
-	+	6	61
-	+	7	1
-	+	7	2
-	+	9	10
-	+	10	60
-	+	11	41
-	+	10	38
-	+	11	60
-	+	16	31
-	+	18	19
-	+	20	44
-	+	21	70
-	+	22	25
-	+	23	1
-	+	22	1
-	+	23	3
-	+	22	3
-	+	23	29
-	+	26	8
-
-> ~/Documents/Projects/Qt_projects/testAppUI/InfotainmentApp/InfotainmentApp/StackViewPage.qml
-	*	1684388054	0
-	"	1	0
-
-> ~/Documents/Projects/yf5_kotlin/app/src/main/java/com/styl/yf5/yf5testtool/MainActivity.kt
-	*	1684380267	0
-	"	59	0
-
-> ~/Documents/Projects/Embedded/Linux_embedded/hello_external_module/Makefile
-	*	1683910432	0
-	"	1	0
-
-> ~/Documents/Projects/Embedded/Linux_embedded/Digital_clock.X/Makefile
-	*	1683909812	0
-	"	23	0
-
-> ~/.cache/.fr-dlQKra/Old_projects/standard_environment/sim/Makefile
-	*	1683908614	0
-	"	6	5
-
-> ~/Downloads/CS106/Library/graphics/gbutton.cpp
-	*	1683725091	0
-	"	181	0
-
-> ~/Documents/Projects/Qt_projects/testAppUI/StackView_Loader_Dynamic/Dynamic_object_seperateFiles/Main.qml
-	*	1683720525	0
-	"	1	0
-
-> ~/Documents/Projects/Qt_projects/testAppUI/testDirectory/Samples/Interaction_between_QML_Cplus/clean-editor-master/ui-qml/qtquickcontrols2.conf
-	*	1683716601	0
-	"	1	0
-
-> ~/Documents/Projects/Qt_projects/testAppUI/testDirectory/Samples/Interaction_between_QML_Cplus/clean-editor-master/ui-qml/src/main.cpp
-	*	1683716575	0
-	"	79	0
-
-> ~/Documents/Projects/Qt_projects/testAppUI/testDirectory/Samples/Interaction_between_QML_Cplus/clean-editor-master/ui-qml/views/MainView.qml
-	*	1683716034	0
-	"	1	0
-
-> ~/Documents/Projects/Qt_projects/testAppUI/testDirectory/Samples/Interaction_between_QML_Cplus/clean-editor-master/ui-qml/con
-	*	1683716024	0
-	"	2	0
-	^	2	0
-	.	1	0
-	+	1	0
-
-> ~/Documents/Projects/Qt_projects/testAppUI/InfotainmentApp/InfotainmentApp/components/qmldir
-	*	1683715901	0
-	"	1	0
-	^	3	0
-	.	2	36
-	+	1	0
-	+	1	17
-	+	5	0
-	+	4	0
-	+	2	36
-
-> ~/Documents/Projects/Qt_projects/testAppUI/InfotainmentApp/InfotainmentApp/CMakeLists.txt
-	*	1683715170	0
-	"	20	23
-	^	20	24
-	.	20	23
-	+	19	0
-	+	18	16
-	+	21	0
-	+	20	23
-
-> ~/Documents/Projects/Qt_projects/testAppUI/InfotainmentApp/InfotainmentApp/components/resources.qrc
-	*	1683715129	0
-	"	7	0
-	.	7	0
-	+	2	0
-	+	7	0
-
-> ~/Documents/Projects/Qt_projects/testAppUI/InfotainmentApp/CMakeLists.txt
-	*	1683714376	0
-	"	20	3
-	^	20	4
-	.	20	4
-	+	20	33
-	+	21	2
-	+	19	26
-	+	21	3
-	+	19	23
-	+	21	3
-	+	19	0
-	+	20	4
-	+	18	0
-	+	20	4
-
-> ~/Documents/Projects/Qt_projects/testAppUI/InfotainmentApp/CMA
-	*	1683714357	0
-	"	1	0
-
-> ~/Documents/Projects/Qt_projects/testAppUI/testDirectory/Samples/Interaction_between_QML_Cplus/clean-editor-master/ui-qml/components/qmldir
-	*	1683713192	0
-	"	1	0
-
-> ~/Documents/Projects/Qt_projects/testAppUI/testDirectory/Samples/Interaction_between_QML_Cplus/clean-editor-master/ui-qml/styles/qmldir
-	*	1683713178	0
-	"	1	0
-
-> ~/Documents/Projects/Qt_projects/testAppUI/testDirectory/Samples/Interaction_between_QML_Cplus/clean-editor-master/lib/CMakeLists.txt
-	*	1683544764	0
-	"	93	21
-	^	93	22
-	.	93	21
-	+	93	21
-
-> ~/Documents/Projects/Qt_projects/testAppUI/cmake_app/test_cmake_projects_app/ui_qml/resources.qrc
-	*	1683544170	0
-	"	8	0
-	.	8	0
-	+	1	0
-	+	8	0
-
-> ~/Documents/Projects/Qt_projects/testAppUI/cmake_app/test_cmake_projects_app/ui_qml/CMakeLists.txt
-	*	1683542726	0
-	"	10	0
-	^	34	17
-	.	34	16
-	+	1	0
-	+	2	0
-	+	18	0
-	+	34	19
-	+	2	14
-	+	34	16
-
-> ~/Documents/Projects/Qt_projects/testAppUI/cmake_app/test_cmake_projects_app/ui_qml/qtquickcontrols2.conf
-	*	1683542705	0
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/Documents/Projects/Qt_projects/testAppUI/cmake_app/test_cmake_projects_app/lib/CMakeLists.txt
-	*	1683542560	0
-	"	1	0
-	^	54	4
-	.	54	4
-	+	6	12
-	+	4	0
-	+	6	12
-	+	8	25
-	+	17	0
-	+	13	0
-	+	12	13
-	+	17	0
-	+	13	7
-	+	16	15
-	+	19	0
-	+	10	13
-	+	43	0
-	+	19	42
-	+	30	0
-	+	20	24
-	+	22	0
-	+	16	0
-	+	8	0
-	+	7	0
-	+	8	0
-	+	11	0
-	+	17	0
-	+	29	0
-	+	22	1
-	+	23	10
-	+	27	0
-	+	21	0
-	+	28	37
-	+	29	49
-	+	30	44
-	+	28	1
-	+	29	3
-	+	30	47
-	+	36	0
-	+	31	5
-	+	32	0
-	+	36	0
-	+	33	0
-	+	36	0
-	+	35	0
-	+	34	0
-	+	33	33
-	+	34	0
-	+	36	0
-	+	33	4
-	+	34	46
-	+	35	41
-	+	38	43
-	+	41	0
-	+	40	19
-	+	39	10
-	+	40	19
-	+	43	38
-	+	47	0
-	+	46	11
-	+	46	10
-	+	49	40
-	+	58	0
-	+	54	61
-	+	53	4
-	+	54	4
-
-> ~/Documents/Projects/Qt_projects/testAppUI/cmake_app/test_cmake_projects_app/ui_qml/CMakeLi
-	*	1683542457	0
-	"	1	0
-
-> ~/Documents/Projects/Qt_projects/testAppUI/cmake_app/test_cmake_projects_app/ui_qml/CMak
-	*	1683542446	0
-	"	1	0
-
-> ~/Documents/Projects/Qt_projects/testAppUI/cmake_app/test_cmake_projects_app/ui_qml/C
-	*	1683542442	0
-	"	1	0
-
-> ~/Documents/Projects/Qt_projects/testAppUI/testDirectory/Samples/Interaction_between_QML_Cplus/clean-editor-master/lib/tests/CMakeLists.txt
-	*	1683542397	0
-	"	1	0
-
-> ~/Documents/Projects/Qt_projects/testAppUI/testDirectory/Samples/Interaction_between_QML_Cplus/clean-editor-master/lib/tests/CMake
-	*	1683542390	0
-	"	1	0
-
-> ~/Documents/Projects/Qt_projects/testAppUI/cmake_app/test_cmake_projects_app/lib/c
-	*	1683541816	0
-	"	1	0
-
-> ~/Documents/Projects/Qt_projects/testAppUI/cmake_app/test_cmake_projects_app/CMakeLists.txt
-	*	1683539268	0
-	"	1	0
-
-> ~/Documents/Projects/Qt_projects/testAppUI/cmake_app/cmake_tutorial/basic_start_point/CMakeLists.txt
-	*	1683539257	0
-	"	5	0
-	^	4	36
-	.	4	35
-	+	1	36
-	+	4	36
-	+	7	0
-	+	6	0
-	+	5	0
-	+	6	45
-	+	6	67
-	+	4	35
-
-> ~/Documents/Projects/Qt_projects/testAppUI/cmake_app/cmake_tutorial/basic_start_point/TutorialConfig.h
-	*	1683537767	0
-	"	2	54
-	^	2	55
-	.	2	54
-	+	2	54
-
-> ~/Documents/Projects/Qt_projects/testAppUI/cmake_app/cmake_tutorial/testSome/cpp/CMakeLists.txt
-	*	1683537577	0
-	"	16	0
-	^	8	41
-	.	8	41
-	+	15	0
-	+	14	0
-	+	13	0
-	+	12	0
-	+	11	0
-	+	2	30
-	+	9	0
-	+	2	29
-	+	4	33
-	+	8	40
-	+	7	50
-	+	8	42
-	+	7	40
-	+	1	34
-	+	4	19
-	+	8	41
-
-> ~/Documents/Projects/Qt_projects/testAppUI/cmake_app/cmake_tutorial/SomeLibDemo/cpp/CMakeLists.txt
-	*	1683537432	0
-	"	74	0
-	^	68	43
-	.	68	42
-	+	66	66
-	+	67	50
-	+	12	122
-	+	68	42
-
-> ~/Documents/Projects/Qt_projects/testAppUI/cmake_app/test_cmake_projects_app/lib/src/main.cpp
-	*	1683536473	0
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/Documents/Projects/Qt_projects/testAppUI/testDirectory/Samples/Interaction_between_QML_Cplus/clean-editor-master/CMakeLists.txt
-	*	1683536196	0
-	"	1	0
-
-> ~/Documents/Projects/Qt_projects/testAppUI/cmake_app/cmake_tutorial/testSome/cpp/main.cpp
-	*	1683470602	0
-	"	7	10
-	^	7	11
-	.	7	10
-	+	1	10
-	+	1	40
-	+	8	0
-	+	6	20
-	+	5	0
-	+	7	9
-	+	2	18
-	+	7	10
-
-> ~/Documents/Projects/Qt_projects/testAppUI/cmake_app/cmake_tutorial/SomeLibDemo/cpp/adder.h
-	*	1683470216	0
-	"	1	13
-	^	1	14
-	.	1	13
-	+	1	13
-
-> ~/Documents/Projects/Qt_projects/testAppUI/cmake_app/cmake_tutorial/SomeLibDemo/cpp/adder.cpp
-	*	1683470206	0
-	"	3	7
-	^	3	8
-	.	3	7
-	+	3	7
-
-> ~/Documents/Projects/Qt_projects/testAppUI/cmake_app/cmake_tutorial/SomeLibDemo/cpp/adder.c
-	*	1683470195	0
-	"	1	0
-
-> ~/Documents/Projects/Qt_projects/testAppUI/cmake_app/cmake_tutorial/testSome/cpp/CMakeList.txt
-	*	1683469696	0
-	"	2	0
-	^	2	0
-	.	1	35
-	+	1	35
-
-> ~/Documents/Projects/Qt_projects/testAppUI/cmake_app/cmake_tutorial/testSome/testSome.cpp
-	*	1683469526	0
-	"	1	0
-	^	1	8
-	.	1	8
-	+	1	8

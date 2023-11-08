@@ -15,6 +15,8 @@ HISTCONTROL=ignoreboth
 # append to the history file, don't overwrite it
 shopt -s histappend
 
+stty -ixon
+
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
 HISTSIZE=1000
 HISTFILESIZE=2000
@@ -22,6 +24,8 @@ HISTFILESIZE=2000
 # check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.
 shopt -s checkwinsize
+
+
 
 # If set, the pattern "**" used in a pathname expansion context will
 # match all files and zero or more directories and subdirectories.
@@ -94,6 +98,56 @@ alias l='ls -CF'
 
 alias pbcopy='xclip -selection clipboard -i'
 alias pbpaste='xclip -selection clipboard -o'
+alias scl='__scl'
+__scl(){
+  link=""
+  for arg in "$*"; do
+    string=$(printf "%s" "$arg")
+    link="${link}${string}"
+  done
+  echo -n "$link" | xclip -selection clipboard
+}
+alias tfo='__tfo'
+__tfo(){
+        link=""
+        for arg in $@; do
+                if [[ "$arg" == "-f" ]];
+                then 
+                        full_dir_arg=true
+                        break
+                else
+                        full_dir_arg=false
+
+                fi
+        done
+        for arg in $*; do
+                if [[ "$full_dir_arg" == "true" ]] && [[ "$arg" != "-f" ]];
+                then 
+                        string=$(printf "$(pwd)/%s" "$arg")
+                        link="${link} ${string}"
+                elif [[ "$arg" != "-f" ]]
+                then
+                        string=$(printf "%s" "$arg")
+                        link="${link} ${string}"
+                fi
+        done
+        TREE_SRC=$(tree -ifF ${link} | grep -v '/$')
+        i=0
+        echo $link
+        while IFS= read -r line
+        do 
+                let "i+=1"
+                echo $line
+                time=$(echo "$i*0.1" | bc)
+                ((( sleep $time &&(scl $line ))&)&)
+        done < <(printf '%s\n' "$TREE_SRC")
+
+
+
+}
+
+
+
 
 # Copy the PWD to the Clipboard
 alias cpwd='echo -n $(pwd)  | pbcopy && echo $PWD'
@@ -110,18 +164,18 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 # See /usr/share/doc/bash-doc/examples in the bash-doc package.
 
 if [ -f ~/.bash_aliases ]; then
-    . ~/.bash_aliases
+        . ~/.bash_aliases
 fi
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
 # sources /etc/bash.bashrc).
 if ! shopt -oq posix; then
-  if [ -f /usr/share/bash-completion/bash_completion ]; then
-    . /usr/share/bash-completion/bash_completion
-  elif [ -f /etc/bash_completion ]; then
-    . /etc/bash_completion
-  fi
+        if [ -f /usr/share/bash-completion/bash_completion ]; then
+                . /usr/share/bash-completion/bash_completion
+        elif [ -f /etc/bash_completion ]; then
+                . /etc/bash_completion
+        fi
 fi
 export PATH=/home/thuantran/cmake/cmake-3.20.5-linux-x86_64/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 export PATH=${HOME}/gn:"$PATH"

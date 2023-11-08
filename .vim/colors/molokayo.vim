@@ -28,7 +28,7 @@ hi! PreProc guibg=bg guifg=#2ee252 ctermbg=bg ctermfg=41
 hi! PreCondit guibg=bg guifg=#2ee252 ctermbg=bg ctermfg=41
 hi! Title guibg=bg guifg=#ef7511 ctermbg=bg ctermfg=208
 hi! ColorColumn guibg=#f5eeb8 ctermbg=233
-"hi! ColorColumn guibg=#1e1e1e ctermbg=233
+hi! ColorColumn guibg=#1e1e1e ctermbg=233
 hi! Error guibg=#990023 guifg=#ffca00 ctermbg=160 ctermfg=214
 hi! TabLineFill guibg=#202020 guifg=#141414 ctermbg=234 ctermfg=233
 hi! TabLineSel guibg=#141414 guifg=#ffb700 ctermbg=233 ctermfg=214 cterm=bold gui=bold
@@ -97,3 +97,4 @@ hi! CursorColumn guibg=#EEEEEE gui=none
 hi! MatchParen guifg=#f6f3e8 guibg=#857b6f gui=none
 hi! Pmenu   guifg=#f6f3e8 guibg=#DDDDDD gui=none
 hi! PmenuSel  guifg=#000000 guibg=#DDDDDD gui=none
+hi! Normal ctermfg=None ctermbg=None
