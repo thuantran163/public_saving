@@ -10,8 +10,8 @@ nmap <S-k> <C-u>
 nnoremap <S-u> <S-^>
 nmap oo o<Esc>k
 nmap OO O<Esc>j
-noremap <S-h> b 
-noremap <S-l> w
+noremap <S-h> <S-Left>
+noremap <S-l> <S-Right>
 nnoremap <c-z> :u<CR>      "Avoid using this**
 inoremap <c-z> <c-o>:u<CR>
 inoremap <expr><Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
