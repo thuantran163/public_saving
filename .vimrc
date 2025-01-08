@@ -1,6 +1,12 @@
 execute pathogen#infect()
 
 "////////////////////////////////////////// MAPPING ///////////////////////////////////////////
+vnoremap vy :w! /tmp/vi-clipboard-tmp<CR>
+nnoremap vp :r! cat /tmp/vi-clipboard-tmp<CR>
+nmap cpwd :execute '!echo ' . shellescape(expand('%:p:h')) . ' >> ~/.bash_history'<CR><CR>
+"vnoremap cyy :w  !xclip -selection clipboard<CR><CR>
+"nnoremap cpp :r !xclip -selection clipboard -o<CR>
+"set clipboard=unnamedplus
 vnoremap cyy "+y
 nnoremap cpp "+p
 inoremap <nowait> jj <Esc>
@@ -46,6 +52,7 @@ filetype off                  " required
 "set expandtab
 filetype indent on
 filetype plugin indent on
+let NERDTreeShowHidden=1
 set omnifunc=ccomplete#CompleteCpp
 "filetype on
 " Use a line cursor within insert mode and a block cursor everywhere else.
@@ -61,9 +68,10 @@ let &t_SI = "\e[6 q"
 let &t_EI = "\e[2 q"
 filetype plugin indent on
 syntax on
-colorscheme molokayo
+colorscheme afterglow
 "////////////////////////////////////////// SETTING ///////////////////////////////////////////
 set timeout timeoutlen=300
+set clipboard=unnamedplus
 "colorscheme koehler
 set nocompatible              " be iMproved, required
 "line numbering
@@ -88,7 +96,7 @@ set foldnestmax=10
 set nofoldenable
 set foldlevel=2
 set tw=90
-set spell spelllang=en_us
+"set spell spelllang=en_us
 "set foldmethod=indent
 set conceallevel=1
 "////////////////////////////////////////// INDENTLINE ///////////////////////////////////////////

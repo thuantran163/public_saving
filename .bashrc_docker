@@ -94,9 +94,36 @@ __scl(){
 #  echo -n "$link" | xclip -selection clipboard
   echo "$link" | tee -a ~/.bash_history
 }
-alias tfo='__tfo'
+
+alias of='__of'
+__of(){
+   if [[ -z $1 ]]; then
+      __tfo -f ./ 
+    else
+        if [[ "$1" =~ ^[0-9]+$ ]]; then
+            export HISTFILE=/root/.tree_history
+            cp /root/.path_saving/.temp_$1_history /root/.tree_history
+            history -c
+            history -r
+            history
+        elif [ "$1" == "--help" ]; then
+            echo "Usage: ht <select>"
+            return 0
+        elif [ "$1" == "-a" ]; then
+            __tfo -f ./
+            cp /root/.tree_history  /root/.path_saving/.temp_$2_history
+            return 1
+        else
+            echo "Invalid option"
+        fi
+    fi
+
+}
+alias tfo='__tfo -f'
 __tfo(){
+        export HISTFILE=/root/.tree_history
         link=""
+        tmp_link=""
         for arg in $@; do
                 if [[ "$arg" == "-f" ]];
                 then 
@@ -110,19 +137,30 @@ __tfo(){
         for arg in $*; do
                 if [[ "$full_dir_arg" == "true" ]] && [[ "$arg" != "-f" ]];
                 then 
+                        tmp_string=$(printf "%s" "$arg")
+                        tmp_link="${tmp_link} ${tmp_string}"
                         string=$(printf "$(pwd)/%s" "$arg")
                         link="${link} ${string}"
-                elif [[ "$arg" != "-f" ]]
+                elif [[ "$full_dir_arg" == "false" ]] && [[ "$arg" != "-f" ]]
                 then
                         string=$(printf "%s" "$arg")
                         link="${link} ${string}"
+                        tmp_link="${link}"
                 fi
         done
-        TREE_SRC=$(tree -if ${link} | grep -v '/$'| grep -v '^$')
-        while IFS= read -r line
-        do 
-                (scl $line )
-        done < <(printf '%s\n' "$TREE_SRC")
+        #TREE_SRC=$(tree -if ${link} | grep -v '/$'| grep -v '^$') > /root/.tree_history
+        tree -if ${link} | grep -v '/$'| grep -v '^$' > /root/.tree_history
+        history -c
+        history -r
+        tree -Cif ${tmp_link}| grep -v '/$'| grep -v '^$' | awk '{print "    " NR, "  " $0}'
+
+
+        echo $tmp_link
+#        history
+#        while IFS= read -r line
+#        do 
+#                (scl $line )
+#        done < <(printf '%s\n' "$TREE_SRC")
 }
 
 
@@ -154,7 +192,58 @@ export PATH=/root/nrf-command-line-tools/bin:$PATH
 source /workspace/.emotiv/zephyr-project/zephyr/zephyr-env.sh
 source /root/.venv/bin/activate
 #source /root/ncs/zephyr/zephyr-env.sh
-alias ht='export HISTFILE=/root/.bash_history; history -c; history -r; history'
+alias ht='__ht'
+__ht() {
+   if [[ -z $1 ]]; then
+        # Default behavior: set to .bash_history
+       # export HISTFILE=/root/.bash_history
+       # echo "No argument provided. Defaulting to .bash_history"
+      history -c
+      history -r
+      history
+    else
+        case "$1" in
+            0)
+                export HISTFILE=/root/.bash_history
+                history -c
+                history -r
+                history
+                ;;
+            1)
+                export HISTFILE=/root/.file_history
+                history -c
+                history -r
+                history
+                ;;
+            2)
+                export HISTFILE=/root/.grep_history
+                history -c
+                history -r
+                history
+                ;;
+            3)
+                export HISTFILE=/root/.tree_history
+                history -c
+                history -r
+                history
+                ;;
+            --help)
+                echo "Usage: ht <select>"
+                echo "  0: .bash_history"
+                echo "  1: .file_history"
+                echo "  2: .grep_history"
+                echo "  3: .tree_history"
+                return 0
+                ;;
+            *)
+                echo "Invalid option. Use '--help' for usage information."
+                return 1
+                ;;
+        esac
+    fi
+
+}
+
 alias fn="__fn"
 __fn() {
     if [ -z "$1" ]; then
@@ -162,8 +251,8 @@ __fn() {
         return 1
     fi
 
-    export HISTFILE=/root/.temp_1_history
-    find . -name "$1" > /root/.temp_1_history
+    export HISTFILE=/root/.file_history
+    find . -name "$1" > /root/.file_history
     history -c
     history -r
     history
@@ -174,9 +263,10 @@ __gn() {
         echo "Usage: gn <pattern>"
         return 1
     fi
-    export HISTFILE=/root/.temp_2_history
-    grep -nir --color=always "$1" | awk '{print NR, $0}' 
-    grep -nir "$1" | sed 's/:.*//' > /root/.temp_2_history
+    export HISTFILE=/root/.grep_history
+    grep -nir --color=always "$1" | awk '{print "    " NR, "  " $0}' 
+    grep -nir "$1" | sed 's/:.*//' > /root/.grep_history
     history -c
     history -r
 }
+
