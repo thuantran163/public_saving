@@ -1,9 +1,97 @@
-execute pathogen#infect()
+"__________________________________________________ COC.vim
+"" utf-8 byte sequence
+set encoding=utf-8
+" Some servers have issues with backup files, see #649
+set nobackup
+set nowritebackup
 
+" Having longer updatetime (default is 4000 ms = 4s) leads to noticeable
+" delays and poor user experience
+set updatetime=300
+set signcolumn=no
+" GoTo code navigation
+nmap <silent> gd <Plug>(coc-definition)
+"nmap <silent> gy <Plug>(coc-type-definition)
+"nmap <silent> gi <Plug>(coc-implementation)
+nmap <silent> gr <Plug>(coc-references)
+inoremap <silent><expr> <TAB>
+      \ coc#pum#visible() ? coc#pum#next(1) :
+      \ CheckBackspace() ? "\<Tab>" :
+      \ coc#refresh()
+inoremap <expr><S-TAB> coc#pum#visible() ? coc#pum#prev(1) : "\<C-h>"
+
+" Make <CR> to accept selected completion item or notify coc.nvim to format
+" <C-g>u breaks current undo, please make your own choice
+inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm()
+                              \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
+
+function! CheckBackspace() abort
+  let col = col('.') - 1
+  return !col || getline('.')[col - 1]  =~# '\s'
+endfunction
+
+set termguicolors
+highlight NormalFloat guibg=#3c3c3c guifg=#ffffff
+highlight CocFloating guibg=#3c3c3c guifg=#ffffff
+highlight Pmenu guibg=#3c3c3c guifg=#c0caf5
+highlight PmenuSel guibg=#5c5c5c guifg=#ffffff
+"__________________________________________________
+call plug#begin('~/.vim/plugged')  " Use ~/.local/share/nvim/plugged for Neovim
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+call plug#end()
+
+set encoding=utf-8
+set fileencoding=utf-8
+set nocompatible              " be iMproved, required
+filetype off                  " required
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+" alternatively, pass a path where Vundle should install plugins
+"call vundle#begin('~/some/path/here')
+
+" let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'tpope/vim-fugitive'
+" plugin from http://vim-scripts.org/vim/scripts.html
+" Plugin 'L9'
+" Git plugin not hosted on GitHub
+Plugin 'git://git.wincent.com/command-t.git'
+" git repos on your local machine (i.e. when working on your own plugin)
+Plugin 'file:///home/gmarik/path/to/plugin'
+" The sparkup vim script is in a subdirectory of this repo called vim.
+" Pass the path to set the runtimepath properly.
+Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
+" The following are examples of different formats supported.
+" Keep Plugin commands between vundle#begin/end.
+" plugin on GitHub repo
+" Install L9 and avoid a Naming conflict if you've already installed a
+" different version somewhere else.
+" Plugin 'ascenator/L9', {'name': 'newL9'}
+" All of your Plugins must be added before the following line
+call vundle#end()            " required
+filetype plugin indent on    " required
+" To ignore plugin indent changes, instead use:
+"filetype plugin on
+"
+" Brief help
+" :PluginList       - lists configured plugins
+" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
+" :PluginSearch foo - searches for foo; append `!` to refresh local cache
+" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
+"
+" see :h vundle for more details or wiki for FAQ
+" Put your non-Plugin stuff after this line
+
+execute pathogen#infect()
 "////////////////////////////////////////// MAPPING ///////////////////////////////////////////
 vnoremap vy :w! /tmp/vi-clipboard-tmp<CR>
 nnoremap vp :r! cat /tmp/vi-clipboard-tmp<CR>
 nmap cpwd :execute '!echo ' . shellescape(expand('%:p:h')) . ' >> ~/.bash_history'<CR><CR>
+nmap sp :echo "\n".expand('%:p').""<CR>
+nmap gp :execute 'silent !echo ' . shellescape(expand('%:p')) . ' >> ~/.bash_history'<CR>:redraw!<CR>
+"nmap gp :echo expand('%:p')<CR>
 "vnoremap cyy :w  !xclip -selection clipboard<CR><CR>
 "nnoremap cpp :r !xclip -selection clipboard -o<CR>
 "set clipboard=unnamedplus
@@ -23,26 +111,6 @@ inoremap <c-z> <c-o>:u<CR>
 inoremap <expr><Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
 "////////////////////////////////////////// VIM CONFIG ///////////////////////////////////////////
 filetype off                  " required
-" set the runtime path to include Vundle and initialize
-"set rtp+=~/.vim/bundle/Vundle.vim
-"call vundle#begin()
-" alternatively, pass a path where Vundle should install plugins "call vundle#begin('~/some/path/here')
-" let Vundle manage Vundle, required
-"Plugin 'VundleVim/Vundle.vim'
-"Plugin 'udalov/kotlin-vim'
-" All of your Plugins must be added before the following line
-"call vundle#end()            " required
-" To ignore plugin indent changes, instead use:
-"filetype plugin on
-"
-" Brief help
-" :PluginList       - lists configured plugins
-" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
-" :PluginSearch foo - searches for foo; append `!` to refresh local cache
-" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
-"
-" see :h vundle for more details or wiki for FAQ
-" Put your non-Plugin stuff after this line
 " tabstop:          Width of tab character
 " softtabstop:      Fine tunes the amount of white space to be added
 " shiftwidth        Determines the amount of whitespace to add in normal mode
@@ -68,7 +136,8 @@ let &t_SI = "\e[6 q"
 let &t_EI = "\e[2 q"
 filetype plugin indent on
 syntax on
-colorscheme afterglow
+colorscheme molokai
+"colorscheme afterglow
 "////////////////////////////////////////// SETTING ///////////////////////////////////////////
 set timeout timeoutlen=300
 set clipboard=unnamedplus

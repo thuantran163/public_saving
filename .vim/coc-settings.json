@@ -1,0 +1,7 @@
+/*{
+  "diagnostic.enableSign": false,         // Hides signs (like '>>')
+  "diagnostic.enableMessage": false,      // Hides popup messages for diagnostics
+  "diagnostic.virtualText": false,        // Disables inline virtual text errors
+  "diagnostic.showUnused": false,         // Hides unused variable warnings
+}*/
+

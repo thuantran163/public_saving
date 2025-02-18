@@ -1,5 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =9
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/workspace/01.Emotiv/nrf7002/nrf7002_edge_impulse_test/SPI_sample/LIS302DL_driver'
+let g:netrw_dirhist_0='/workspace/01.Emotiv/nrf7002/nrf7002_edge_impulse_test/SPI_sample'
 let g:netrw_dirhist_9='/workspace/01.Emotiv/00.zephyr-example-application/test-application/boards'
 let g:netrw_dirhist_8='/workspace/01.Emotiv/00.zephyr-example-application/test-application'
 let g:netrw_dirhist_7='/workspace/01.Emotiv/00.zephyr-example-application/example-application/build/CMakeFiles'
@@ -8,5 +10,3 @@ let g:netrw_dirhist_5='/workspace/00.Sources/01.Linux-Kernel/00.kernel/linux/arc
 let g:netrw_dirhist_4='/workspace/00.Sources/01.Linux-Kernel/00.kernel/linux/arch/arm'
 let g:netrw_dirhist_3='/workspace/00.Sources/01.Linux-Kernel/00.kernel/linux/arch/arm/mach-rockchip'
 let g:netrw_dirhist_2='/root/ncs/zephyr/arch'
-let g:netrw_dirhist_1='/root/ncs/zephyr/arch/arm'
-let g:netrw_dirhist_0='/root/ncs/zephyr/boards/arm/stm32f411e_disco'
