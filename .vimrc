@@ -1,3 +1,5 @@
+" :h index
+
 "__________________________________________________ COC.vim
 "" utf-8 byte sequence
 set encoding=utf-8
@@ -38,8 +40,13 @@ highlight PmenuSel guibg=#5c5c5c guifg=#ffffff
 "__________________________________________________
 call plug#begin('~/.vim/plugged')  " Use ~/.local/share/nvim/plugged for Neovim
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'preservim/nerdtree'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 call plug#end()
-
+nmap <F6> :NERDTreeToggle<CR>
+let g:fzf_preview_command = 'bat --style=numbers --color=always --line-range :500 {}'
+let g:fzf_action = { 'enter': 'tab split' }
 set encoding=utf-8
 set fileencoding=utf-8
 set nocompatible              " be iMproved, required
@@ -86,8 +93,8 @@ filetype plugin indent on    " required
 
 execute pathogen#infect()
 "////////////////////////////////////////// MAPPING ///////////////////////////////////////////
-vnoremap vy :w! /tmp/vi-clipboard-tmp<CR>
-nnoremap vp :r! cat /tmp/vi-clipboard-tmp<CR>
+vnoremap vy :w! /tmp/.X11-unix/vi-clipboard-tmp<CR><CR>
+nnoremap vp :r! cat /tmp/.X11-unix/vi-clipboard-tmp<CR>
 nmap cpwd :execute '!echo ' . shellescape(expand('%:p:h')) . ' >> ~/.bash_history'<CR><CR>
 nmap sp :echo "\n".expand('%:p').""<CR>
 nmap gp :execute 'silent !echo ' . shellescape(expand('%:p')) . ' >> ~/.bash_history'<CR>:redraw!<CR>
