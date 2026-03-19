@@ -1,5 +1,35 @@
 " :h index
+nnoremap <C-f> :Files<CR>
+let g:AutoPairsShortcutJump = '<C-y>'
 
+nnoremap <silent> <C-]> <C-]>:set cursorline<CR>:redraw<CR>:call timer_start(300, {-> execute('set nocursorline')})<CR>
+nnoremap <silent> <C-i> <C-i>:set cursorline<CR>:redraw<CR>:call timer_start(300, {-> execute('set nocursorline')})<CR>
+nnoremap <silent> <C-o> <C-o>:set cursorline<CR>:redraw<CR>:call timer_start(300, {-> execute('set nocursorline')})<CR>
+function! FlashOnJump()
+    " Only flash if the jump was vertical and significant (more than 10 lines)
+if abs(line('.') - get(b:, 'last_line', line('.'))) > 10
+  highlight CursorLine ctermbg=210 guibg=#ff6961 ctermfg=235 guifg=#282c34
+    set cursorline
+    redraw
+    call timer_start(300, {-> execute('set nocursorline')})
+endif
+    let b:last_line = line('.')
+endfunction
+
+augroup FlashCursor
+ autocmd!
+ autocmd CursorMoved * call FlashOnJump()
+augroup END
+
+"autocmd VimEnter * set tags+=/workspace/02.LePark/03.Traninning/STM32/test/tags
+let g:gutentags_ctags_executable = 'ctags'
+let g:gutentags_cache_dir = expand('~/.cache/vim/ctags/')
+let g:gutentags_project_root = ['.prj']
+let g:gutentags_add_default_project_roots = 0
+
+command! -nargs=0 GutentagsClearCache call system('rm -rf ' . g:gutentags_cache_dir . '/*')
+set path+=**
+let g:rainbow_active = 1
 "__________________________________________________ COC.vim
 "" utf-8 byte sequence
 set encoding=utf-8
@@ -16,22 +46,27 @@ nmap <silent> gd <Plug>(coc-definition)
 "nmap <silent> gy <Plug>(coc-type-definition)
 "nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
-inoremap <silent><expr> <TAB>
-      \ coc#pum#visible() ? coc#pum#next(1) :
-      \ CheckBackspace() ? "\<Tab>" :
-      \ coc#refresh()
-inoremap <expr><S-TAB> coc#pum#visible() ? coc#pum#prev(1) : "\<C-h>"
-
-" Make <CR> to accept selected completion item or notify coc.nvim to format
-" <C-g>u breaks current undo, please make your own choice
-inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm()
-                              \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
-
-function! CheckBackspace() abort
-  let col = col('.') - 1
-  return !col || getline('.')[col - 1]  =~# '\s'
-endfunction
-
+"__________________________________________________
+"
+autocmd VimEnter * inoremap <silent><expr> <TAB>
+       \ coc#pum#visible() ? coc#pum#confirm() :
+       \ "\<TAB>"
+"inoremap <silent><expr> <TAB>
+"      \ coc#pum#visible() ? coc#pum#next(1) :
+"      \ CheckBackspace() ? "\<Tab>" :
+"      \ coc#refresh()
+"inoremap <expr><S-TAB> coc#pum#visible() ? coc#pum#prev(1) : "\<C-h>"
+"
+"" Make <CR> to accept selected completion item or notify coc.nvim to format
+"" <C-g>u breaks current undo, please make your own choice
+"inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm()
+"                              \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
+"
+"function! CheckBackspace() abort
+"  let col = col('.') - 1
+"  return !col || getline('.')[col - 1]  =~# '\s'
+"endfunction
+"__________________________________________________
 set termguicolors
 highlight NormalFloat guibg=#3c3c3c guifg=#ffffff
 highlight CocFloating guibg=#3c3c3c guifg=#ffffff
@@ -39,12 +74,16 @@ highlight Pmenu guibg=#3c3c3c guifg=#c0caf5
 highlight PmenuSel guibg=#5c5c5c guifg=#ffffff
 "__________________________________________________
 call plug#begin('~/.vim/plugged')  " Use ~/.local/share/nvim/plugged for Neovim
+Plug 'LunarWatcher/auto-pairs'
+Plug 'tpope/vim-apathy'
+Plug 'ludovicchabant/vim-gutentags'
+Plug 'luochen1990/rainbow'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'preservim/nerdtree'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 call plug#end()
-nmap <F6> :NERDTreeToggle<CR>
+nmap ~ :NERDTreeToggle<CR>
 let g:fzf_preview_command = 'bat --style=numbers --color=always --line-range :500 {}'
 let g:fzf_action = { 'enter': 'tab split' }
 set encoding=utf-8
@@ -53,23 +92,23 @@ set nocompatible              " be iMproved, required
 filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+"SET rtp+=~/.vim/bundle/Vundle.vim
+"call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
 "call vundle#begin('~/some/path/here')
 
 " let Vundle manage Vundle, required
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'tpope/vim-fugitive'
+"Plugin 'VundleVim/Vundle.vim'
+"Plugin 'tpope/vim-fugitive'
 " plugin from http://vim-scripts.org/vim/scripts.html
 " Plugin 'L9'
 " Git plugin not hosted on GitHub
-Plugin 'git://git.wincent.com/command-t.git'
+"Plugin 'git://git.wincent.com/command-t.git'
 " git repos on your local machine (i.e. when working on your own plugin)
-Plugin 'file:///home/gmarik/path/to/plugin'
+"Plugin 'file:///home/gmarik/path/to/plugin'
 " The sparkup vim script is in a subdirectory of this repo called vim.
 " Pass the path to set the runtimepath properly.
-Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
+"Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
@@ -77,7 +116,7 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 " different version somewhere else.
 " Plugin 'ascenator/L9', {'name': 'newL9'}
 " All of your Plugins must be added before the following line
-call vundle#end()            " required
+"call vundle#end()            " required
 filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:
 "filetype plugin on
@@ -97,7 +136,7 @@ vnoremap vy :w! /tmp/.X11-unix/vi-clipboard-tmp<CR><CR>
 nnoremap vp :r! cat /tmp/.X11-unix/vi-clipboard-tmp<CR>
 nmap cpwd :execute '!echo ' . shellescape(expand('%:p:h')) . ' >> ~/.bash_history'<CR><CR>
 nmap sp :echo "\n".expand('%:p').""<CR>
-nmap gp :execute 'silent !echo ' . shellescape(expand('%:p')) . ' >> ~/.bash_history'<CR>:redraw!<CR>
+nmap yp :execute 'silent !echo ' . shellescape(expand('%:p')) . ' >> ~/.bash_history'<CR>:redraw!<CR>
 "nmap gp :echo expand('%:p')<CR>
 "vnoremap cyy :w  !xclip -selection clipboard<CR><CR>
 "nnoremap cpp :r !xclip -selection clipboard -o<CR>
