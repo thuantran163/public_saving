@@ -45,6 +45,7 @@ set updatetime=300
 set signcolumn=no
 " GoTo code navigation
 set tagfunc=CocTagFunc
+nnoremap <silent> tc :call CocAction('toggleExtension', 'coc-clangd')<CR>
 nmap <silent> gD <Plug>(coc-definition)
 "nmap <silent> gy <Plug>(coc-type-definition)
 "nmap <silent> gi <Plug>(coc-implementation)
