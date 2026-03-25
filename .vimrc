@@ -1,7 +1,8 @@
 " :h index
 nnoremap <C-f> :Files<CR>
 let g:AutoPairsShortcutJump = '<C-y>'
-
+" Tell Vim to use clang-format for C/C++ files
+autocmd FileType c,cpp,objc setlocal formatprg=clang-format
 nnoremap <silent> <C-]> <C-]>:set cursorline<CR>:redraw<CR>:call timer_start(300, {-> execute('set nocursorline')})<CR>
 nnoremap <silent> <C-i> <C-i>:set cursorline<CR>:redraw<CR>:call timer_start(300, {-> execute('set nocursorline')})<CR>
 nnoremap <silent> <C-o> <C-o>:set cursorline<CR>:redraw<CR>:call timer_start(300, {-> execute('set nocursorline')})<CR>
@@ -22,6 +23,7 @@ augroup FlashCursor
 augroup END
 
 "autocmd VimEnter * set tags+=/workspace/02.LePark/03.Traninning/STM32/test/tags
+let g:gutentags_generate_on_new = 1
 let g:gutentags_ctags_executable = 'ctags'
 let g:gutentags_cache_dir = expand('~/.cache/vim/ctags/')
 let g:gutentags_project_root = ['.prj']
@@ -42,7 +44,8 @@ set nowritebackup
 set updatetime=300
 set signcolumn=no
 " GoTo code navigation
-nmap <silent> gd <Plug>(coc-definition)
+set tagfunc=CocTagFunc
+nmap <silent> gD <Plug>(coc-definition)
 "nmap <silent> gy <Plug>(coc-type-definition)
 "nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
@@ -82,8 +85,10 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'preservim/nerdtree'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
+Plug 'fcpg/vim-osc52'
 call plug#end()
 nmap ~ :NERDTreeToggle<CR>
+let NERDTreeShowHidden=1
 let g:fzf_preview_command = 'bat --style=numbers --color=always --line-range :500 {}'
 let g:fzf_action = { 'enter': 'tab split' }
 set encoding=utf-8
@@ -137,6 +142,10 @@ nnoremap vp :r! cat /tmp/.X11-unix/vi-clipboard-tmp<CR>
 nmap cpwd :execute '!echo ' . shellescape(expand('%:p:h')) . ' >> ~/.bash_history'<CR><CR>
 nmap sp :echo "\n".expand('%:p').""<CR>
 nmap yp :execute 'silent !echo ' . shellescape(expand('%:p')) . ' >> ~/.bash_history'<CR>:redraw!<CR>
+vmap cy y:Oscyank<cr>
+xmap <F7> y:Oscyank<cr>
+
+
 "nmap gp :echo expand('%:p')<CR>
 "vnoremap cyy :w  !xclip -selection clipboard<CR><CR>
 "nnoremap cpp :r !xclip -selection clipboard -o<CR>
@@ -166,7 +175,6 @@ filetype off                  " required
 "set expandtab
 filetype indent on
 filetype plugin indent on
-let NERDTreeShowHidden=1
 set omnifunc=ccomplete#CompleteCpp
 "filetype on
 " Use a line cursor within insert mode and a block cursor everywhere else.
@@ -221,4 +229,4 @@ set conceallevel=1
 "let g:indentLine_color_dark = 1 " (default: 2)
 "let g:indentLine_conceallevel = 1
 "let g:indentLine_color_term = 097
-
+nnoremap gq :let saved_view = winsaveview()<CR>gggqG:call winrestview(saved_view)<CR>
