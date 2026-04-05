@@ -198,3 +198,5 @@ export LS_COLORS
 export PATH=${HOME}/gn:"$PATH"
 export PATH=${HOME}/.local/bin:"$PATH"
 export PATH=${HOME}/.bin:"$PATH"
+alias tl='tmux list-session'
+alias ta='tmux attach -t '
