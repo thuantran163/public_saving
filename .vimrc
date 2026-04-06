@@ -1,4 +1,8 @@
 " :h index
+"let g:sneak#label = 1
+command Sn set nonumber norelativenumber
+command Sp set paste 
+command Np set paste 
 nnoremap <C-f> :Files<CR>
 let g:AutoPairsShortcutJump = '<C-y>'
 " Tell Vim to use clang-format for C/C++ files
@@ -26,6 +30,14 @@ augroup END
 let g:gutentags_generate_on_new = 1
 let g:gutentags_ctags_executable = 'ctags'
 let g:gutentags_cache_dir = expand('~/.cache/vim/ctags/')
+" Point to your manual installation
+let g:gutentags_gtags_executable = 'gtags' 
+let g:gutentags_gtags_cscope_executable = 'gtags-cscope'
+"let g:gutentags_gtags_executable = expand('~/local/bin/gtags')
+"let g:gutentags_gtags_cscope_executable = expand('~/local/bin/gtags-cscope')
+
+" Enable the modules
+let g:gutentags_modules = ['ctags', 'gtags_cscope']
 let g:gutentags_project_root = ['.prj']
 let g:gutentags_add_default_project_roots = 0
 
@@ -46,11 +58,35 @@ set signcolumn=no
 " GoTo code navigation
 set tagfunc=CocTagFunc
 nnoremap <silent> tc :call CocAction('toggleExtension', 'coc-clangd')<CR>
-nmap <silent> gD <Plug>(coc-definition)
+"nmap <silent> gD <Plug>(coc-definition)
 "nmap <silent> gy <Plug>(coc-type-definition)
 "nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
+nnoremap <silent> s :call ShowDocumentation()<CR>
+
+function! ShowDocumentation()
+  if CocAction('hasProvider', 'hover')
+    call CocActionAsync('doHover')
+  else
+    call feedkeys('s', 'in')
+  endif
+endfunction
+nnoremap \g :cs find g <C-r>=expand("<cword>")<CR><CR>
+"nnoremap \s :cs find s <C-r>=expand("<cword>")<CR><CR>
+nnoremap \c :cs find c <C-r>=expand("<cword>")<CR><CR>
+"nnoremap \t :cs find t <C-r>=expand("<cword>")<CR><CR>
+nnoremap \e :cs find e <C-r>=expand("<cword>")<CR><CR>
+nnoremap \f :cs find f <C-r>=expand("<cfile>")<CR><CR>
+"nnoremap \i :cs find i ^<C-r>=expand("<cfile>")<CR>$<CR>
+"nnoremap \i :cs find i <C-r>=expand("<cfile>")<CR><CR>
+nnoremap \i :cs find i <C-r>=expand("<cfile>:t")<CR><CR>
+"nnoremap \d :cs find d <C-r>=expand("<cword>")<CR><CR>
+"map t <Plug>Sneak_s
+"map T <Plug>Sneak_S
 "__________________________________________________
+"
+"
+"
 "
 autocmd VimEnter * inoremap <silent><expr> <TAB>
        \ coc#pum#visible() ? coc#pum#confirm() :
@@ -87,6 +123,7 @@ Plug 'preservim/nerdtree'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'fcpg/vim-osc52'
+"Plug 'justinmk/vim-sneak'
 call plug#end()
 nmap ~ :NERDTreeToggle<CR>
 let NERDTreeShowHidden=1
@@ -230,4 +267,4 @@ set conceallevel=1
 "let g:indentLine_color_dark = 1 " (default: 2)
 "let g:indentLine_conceallevel = 1
 "let g:indentLine_color_term = 097
-nnoremap gq :let saved_view = winsaveview()<CR>gggqG:call winrestview(saved_view)<CR>
+nnoremap gqa :let saved_view = winsaveview()<CR>gggqG:call winrestview(saved_view)<CR>
